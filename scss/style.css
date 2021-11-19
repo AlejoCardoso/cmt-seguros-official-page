@@ -1,0 +1,313 @@
+@charset "UTF-8";
+.titulos, .titulos-corp, .titulos-sob {
+  font-size: 4rem;
+  padding: 40px;
+}
+
+.cabseg {
+  background-color: #4740b3;
+}
+
+header .redondeado {
+  border-radius: 20px;
+}
+
+header .inicio-logo {
+  border-radius: 50%;
+  width: 60px;
+}
+
+header .parrafo {
+  font-variant: small-caps;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "Roboto Slab", serif;
+}
+
+header .tamaño-fuente {
+  font-size: 2rem;
+}
+
+header .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+header .efecto:hover {
+  background: #9088fff6;
+}
+
+header .fondo {
+  background-color: #8c7eb6;
+}
+
+.pagina {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.pagina .fondito {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pagina .image-texto {
+  color: #fff;
+  font-size: 2rem;
+  font-style: oblique;
+}
+
+.pagina .imagenes {
+  border-radius: 5px;
+}
+
+.pagina .titulopaginas {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Roboto Slab", serif;
+  padding-top: 30px;
+}
+
+.contactar-section {
+  border: 2px solid #000;
+}
+
+.contactar-section .visitanos {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+}
+
+.contactar-section .mapita {
+  padding-bottom: 40px;
+}
+
+.contactar-section .mapita:hover {
+  -webkit-animation: mapa 2s;
+          animation: mapa 2s;
+}
+
+@-webkit-keyframes mapa {
+  0% {
+    border-radius: 10px;
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@keyframes mapa {
+  0% {
+    border-radius: 10px;
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+.contactar-section .contactar {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactar-section .formulario {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.contactar-section .logotipo {
+  width: 150px;
+  background-color: #fff;
+}
+
+.contactar-section .logotipo-dos {
+  width: 100px;
+  background-color: #fff;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 50px;
+  background: #20c555;
+  color: #fff;
+}
+
+.whatsapp:hover {
+  color: #20c555;
+  background: #fff;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.pie {
+  background-color: #4740b3;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.pie .links-pie {
+  list-style: none;
+}
+
+.pie .link-color-final {
+  color: #fff;
+}
+
+.pie .instag {
+  color: #fff;
+}
+
+.pie .lista-final {
+  color: #fff;
+  padding: 20px;
+  line-height: 40px;
+  list-style: none;
+}
+
+.links-pie li {
+  color: #fff;
+  margin: 15px;
+}
+
+.titulos {
+  color: white;
+}
+
+.titulos-corp {
+  color: blue;
+}
+
+.titulos-sob {
+  color: aquamarine;
+}
+
+.pag-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 40px 40px 40px;
+  list-style: none;
+  color: #fff;
+  background-color: #6ba1c0;
+}
+
+.pag-list li {
+  padding: 25px;
+}
+
+.pag-list-corp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 40px 40px 40px;
+  list-style: none;
+  color: #000;
+  background-color: #447285;
+}
+
+.pag-list-corp li {
+  padding: 25px;
+}
+
+.paginas-secundarias {
+  font-size: 2rem;
+  background-color: #7c73fff6;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 2px solid #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+html body {
+  width: 100%;
+}
+
+html h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Roboto Slab", serif;
+  padding-top: 30px;
+}
+
+html h2 {
+  color: #fff;
+}
+
+html .parrafodescription {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#bdb2dd), to(#aea9fff6));
+    background: linear-gradient(to top, #bdb2dd, #aea9fff6);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#a495d1), to(#9088fff6));
+    background: linear-gradient(to top, #a495d1, #9088fff6);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
+    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+@mixin animacion($propiedad) {
+    -webkit-transform: $propiedad;
+    -o-transform: $propiedad;
+    -moz-transform: $propiedad;
+
+    transform: $propiedad;
+}
+
+@mixin paragraph ($variant, $texttrans, $fontsize) {
+    font-variant: $variant;
+    text-transform: $texttrans;
+    font-size: $fontsize;
+}
+
+@mixin wp ($pos, $wid, $hei, $bot, $rig, $radius){
+    position: $pos;
+    width: $wid;
+    height: $hei;
+    bottom: $bot;
+    right: $rig;
+    border-radius: $radius;
+}
+
+@mixin pages ($dis, $fdir, $pad, $lstyle){
+    display: $dis;
+    flex-direction: $fdir;
+    padding: $pad;
+    list-style: $lstyle;
+}

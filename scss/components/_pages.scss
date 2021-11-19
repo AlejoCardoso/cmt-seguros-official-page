@@ -1,0 +1,47 @@
+@import '../base/variables';
+@import '../base/maps';
+@import '../base/condicion';
+@import '../base/mixin';
+
+.titulos {
+    @extend %estilo;
+    color: white
+}
+
+.titulos-corp {
+    @extend %estilo;
+    color: blue
+}
+
+.titulos-sob {
+    @extend %estilo;
+    color: aquamarine;
+}
+
+.pag-list {
+    @include pages (flex, column, 0 40px 40px 40px, none);
+
+    li {
+        padding: 25px;
+    }
+
+    @include condicion(#fff);
+}
+
+.pag-list-corp {
+    @include pages (flex, column, 0 40px 40px 40px, none);
+    
+    li {
+        padding: 25px;
+    }
+
+    @include condicion(#000);
+}
+
+.paginas-secundarias {
+    font-size: map-get($map: $paginas, $key: fontsize);
+    background-color: map-get($map: $paginas, $key: colorback);
+    
+    font-family: $fuente-body;
+    border-bottom: 2px solid nth($list: $colores, $n: 1);
+}

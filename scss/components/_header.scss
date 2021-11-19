@@ -1,0 +1,39 @@
+@import '../base/variables';
+@import '../base/mixin';
+@import '../base/listas';
+
+.cabseg {
+    background-color: $back-header;
+}
+
+header {
+    .redondeado {
+        border-radius: 20px;
+    }
+
+    .inicio-logo {
+        border-radius: 50%;
+        width: 60px;
+    }
+
+    .parrafo {
+        @include paragraph (small-caps, uppercase, 3rem);
+        font-family: $fuente-titulos;
+    }
+
+    .tamaño-fuente {
+        font-size: 2rem;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .efecto:hover {
+        background: nth($list: $colores, $n: 7);
+    }
+
+    .fondo {
+        background-color: nth($list: $colores, $n: 8);
+    }
+}

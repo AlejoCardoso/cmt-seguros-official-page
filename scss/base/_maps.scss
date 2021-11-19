@@ -1,0 +1,6 @@
+@import './listas';
+
+$paginas: (
+    colorback: nth($list: $colores, $n: 9),
+    fontsize: 2rem,
+);

@@ -6,24 +6,10 @@
     font-size: 1.5rem;
     font-family: $fuente-pie;
 
-    .links-pie {
-        list-style: none;
-    }
-
-    .link-color-final {
-        color: nth($list: $colores, $n: 2);
-    }
-    
     .instag {
         color: nth($list: $colores, $n: 2);
     }
 
-    .lista-final {
-        color: $color-fuente;
-        padding: 20px;
-        line-height: 40px;
-        list-style: none;
-    }
 }
 
 .links-pie li {

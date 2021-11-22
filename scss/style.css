@@ -4,7 +4,7 @@
   padding: 40px;
 }
 
-.cabseg {
+header {
   background-color: #4740b3;
 }
 
@@ -59,6 +59,10 @@ header .fondo {
   border-radius: 5px;
 }
 
+.pagina .seccion-imagenes {
+  width: 1000px;
+}
+
 .pagina .titulopaginas {
   color: #fff;
   text-align: center;
@@ -79,11 +83,6 @@ header .fondo {
 
 .contactar-section .mapita {
   padding-bottom: 40px;
-}
-
-.contactar-section .mapita:hover {
-  -webkit-animation: mapa 2s;
-          animation: mapa 2s;
 }
 
 @-webkit-keyframes mapa {
@@ -177,23 +176,8 @@ header .fondo {
   font-family: "Lato", sans-serif;
 }
 
-.pie .links-pie {
-  list-style: none;
-}
-
-.pie .link-color-final {
-  color: #fff;
-}
-
 .pie .instag {
   color: #fff;
-}
-
-.pie .lista-final {
-  color: #fff;
-  padding: 20px;
-  line-height: 40px;
-  list-style: none;
 }
 
 .links-pie li {

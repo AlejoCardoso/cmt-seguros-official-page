@@ -2,11 +2,8 @@
 @import '../base/mixin';
 @import '../base/listas';
 
-.cabseg {
-    background-color: $back-header;
-}
-
 header {
+    background-color: $back-header;
     .redondeado {
         border-radius: 20px;
     }

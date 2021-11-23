@@ -1,9 +1,0 @@
-@mixin condicion($color) {
-    color: $color;
-
-    @if $color == #fff {
-        background-color: rgb(107, 161, 192);
-    } @else {
-        background-color: rgb(68, 114, 133);
-    }
-}

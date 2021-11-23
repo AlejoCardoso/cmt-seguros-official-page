@@ -1,21 +1,20 @@
 @import '../base/variables';
 @import '../base/maps';
-@import '../base/condicion';
 @import '../base/mixin';
 
 .titulos {
     @extend %estilo;
-    color: white
+    color: #fff;
 }
 
 .titulos-corp {
     @extend %estilo;
-    color: blue
+    color: #fff;
 }
 
 .titulos-sob {
     @extend %estilo;
-    color: aquamarine;
+    color: #fff;
 }
 
 .pag-list {
@@ -24,8 +23,6 @@
     li {
         padding: 25px;
     }
-
-    @include condicion(#fff);
 }
 
 .pag-list-corp {
@@ -34,8 +31,6 @@
     li {
         padding: 25px;
     }
-
-    @include condicion(#000);
 }
 
 .paginas-secundarias {

@@ -269,9 +269,9 @@ html h2 {
 }
 
 html .parrafodescription {
+  font-size: 2rem;
   color: #fff;
   text-align: center;
-  font-size: 2rem;
 }
 
 @media screen and (max-width: 480px) {

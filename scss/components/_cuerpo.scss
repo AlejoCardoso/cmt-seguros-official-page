@@ -89,12 +89,11 @@
     background: nth($list: $colores, $n: 3);
     color: nth($list: $colores, $n: 2);
 
-}
-
-.whatsapp:hover {
-    color: nth($list: $colores, $n: 3);
-    background: nth($list: $colores, $n: 2);
-
-    @include animacion(scale(1.5));
-    transition: all 0.5s;
+    &:hover {
+        color: nth($list: $colores, $n: 3);
+        background: nth($list: $colores, $n: 2);
+    
+        @include animacion(scale(1.5));
+        transition: all 0.5s;
+    }
 }

@@ -19,8 +19,9 @@
         border-radius: 5px;
     }
 
-    .seccion-imagenes {
-        width: 1000px;
+    .seccion-imagenes{
+        display: flex;
+        justify-content: space-around;
     }
 
     .titulopaginas {

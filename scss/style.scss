@@ -41,10 +41,22 @@ html {
     }
 }
 
+// mobile - xs
+@media screen and (max-width: 359px) {
+    body {
+        background: linear-gradient(to top, rgb(164, 149, 209), #9088fff6 )
+        }
+}
+
+
 // mobile
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 360px) and (max-width: 480px) {
     body {
         background: linear-gradient(to top, rgb(189, 178, 221), #aea9fff6 );
+    }
+
+    .separacion {
+        transform: translateX(5%);
     }
 }
 
@@ -54,6 +66,10 @@ html {
     body {
         background: linear-gradient(to top, rgb(164, 149, 209), #9088fff6 )
         }
+
+    .separacion {
+            transform: translateX(25%)
+        }
     }
 
 // desktop
@@ -61,5 +77,9 @@ html {
 @media screen and (min-width: 1024px) {
     body {
         background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
+    }
+
+    .separacion {
+        margin: 0 100px 0 100px;
     }
 }

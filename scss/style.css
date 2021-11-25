@@ -60,7 +60,11 @@ header .fondo {
 }
 
 .pagina .seccion-imagenes {
-  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .pagina .titulopaginas {
@@ -270,10 +274,21 @@ html .parrafodescription {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 359px) {
+  body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#a495d1), to(#9088fff6));
+    background: linear-gradient(to top, #a495d1, #9088fff6);
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
   body {
     background: -webkit-gradient(linear, left bottom, left top, from(#bdb2dd), to(#aea9fff6));
     background: linear-gradient(to top, #bdb2dd, #aea9fff6);
+  }
+  .separacion {
+    -webkit-transform: translateX(5%);
+            transform: translateX(5%);
   }
 }
 
@@ -282,12 +297,19 @@ html .parrafodescription {
     background: -webkit-gradient(linear, left bottom, left top, from(#a495d1), to(#9088fff6));
     background: linear-gradient(to top, #a495d1, #9088fff6);
   }
+  .separacion {
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
 }
 
 @media screen and (min-width: 1024px) {
   body {
     background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
     background: linear-gradient(to top, #8c7eb6, #7c73fff6);
+  }
+  .separacion {
+    margin: 0 100px 0 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */

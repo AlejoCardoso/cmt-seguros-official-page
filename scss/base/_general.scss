@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        color: $color-fuente;
+        text-align: center;
+        font-size: 2rem;
+        font-family: $fuente-titulos;
+        padding-top: 30px;
+    }
+
+    h2 {
+        color: $color-fuente;
+    }
+
+    .parrafodescription {
+        font-size: 2rem;
+        color: $color-fuente;
+        text-align: center;
+    }
+}
+
+// mobile - xs
+@media screen and (max-width: 359px) {
+    body {
+        background: linear-gradient(to top, rgb(164, 149, 209), #9088fff6 )
+        }
+}
+
+
+// mobile
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    body {
+        background: linear-gradient(to top, rgb(189, 178, 221), #aea9fff6 );
+    }
+
+    .separacion {
+        transform: translateX(5%);
+    }
+}
+
+// tablet 
+
+@media screen and (min-width:481px) and (max-width:1023px) {
+    body {
+        background: linear-gradient(to top, rgb(164, 149, 209), #9088fff6 )
+        }
+
+    .separacion {
+            transform: translateX(25%)
+        }
+    }
+
+// desktop
+
+@media screen and (min-width: 1024px) {
+    body {
+        background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
+    }
+
+    .separacion {
+        margin: 0 100px 0 100px;
+    }
+}

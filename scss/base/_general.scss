@@ -29,24 +29,31 @@ html {
         color: $color-fuente;
         text-align: center;
     }
-}
 
-// mobile - xs
-@media screen and (max-width: 359px) {
-    body {
-        background: linear-gradient(to top, rgb(164, 149, 209), #9088fff6 )
-        }
+    main {
+        overflow-y: hidden;
+    }
 }
 
 
 // mobile
-@media screen and (min-width: 360px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     body {
         background: linear-gradient(to top, rgb(189, 178, 221), #aea9fff6 );
     }
 
     .separacion {
         transform: translateX(5%);
+    }
+
+    .pie-links {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 0px 20px; 
+    }
+
+    .separacion-links {
+        padding: 20px 0px;
     }
 }
 
@@ -58,7 +65,13 @@ html {
         }
 
     .separacion {
-            transform: translateX(25%)
+            transform: translateX(25%);
+        }
+
+    .pie-links {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
         }
     }
 
@@ -71,5 +84,11 @@ html {
 
     .separacion {
         margin: 0 100px 0 100px;
+    }
+
+    .pie-links {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
     }
 }

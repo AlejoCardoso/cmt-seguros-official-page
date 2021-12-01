@@ -34,7 +34,8 @@
 }
 
 .contactar-section {
-    border: 2px solid nth($list: $colores, $n: 1);
+    border-top: 2px solid nth($list: $colores, $n: 1);
+    border-bottom: 2px solid nth($list: $colores, $n: 1);
 
     .visitanos {
         font-size: 2rem;
@@ -83,6 +84,7 @@
         width: 100px;
         background-color: nth($list: $colores, $n: 2);
     }
+
 }
 
 .whatsapp {

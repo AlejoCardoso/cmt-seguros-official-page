@@ -14,6 +14,7 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 html body {
@@ -40,6 +41,7 @@ html .parrafodescription {
 
 html main {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 480px) {
@@ -47,9 +49,30 @@ html main {
     background: -webkit-gradient(linear, left bottom, left top, from(#bdb2dd), to(#aea9fff6));
     background: linear-gradient(to top, #bdb2dd, #aea9fff6);
   }
-  .separacion {
-    -webkit-transform: translateX(5%);
-            transform: translateX(5%);
+  .padre-imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .padre-imagenes .hijos-imagenes {
+    margin: 0 auto;
+  }
+  .padre-imagenes .separacion {
+    margin: 20px;
+  }
+  .whatsapp {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50px;
+    background: #20c555;
+    color: #fff;
   }
   .pie-links {
     display: -webkit-box;
@@ -71,9 +94,30 @@ html main {
     background: -webkit-gradient(linear, left bottom, left top, from(#a495d1), to(#9088fff6));
     background: linear-gradient(to top, #a495d1, #9088fff6);
   }
-  .separacion {
-    -webkit-transform: translateX(25%);
-            transform: translateX(25%);
+  .padre-imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .padre-imagenes .hijos-imagenes {
+    margin: 0 auto;
+  }
+  .padre-imagenes .separacion {
+    margin: 50px;
+  }
+  .whatsapp {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50px;
+    background: #20c555;
+    color: #fff;
   }
   .pie-links {
     display: -webkit-box;
@@ -90,8 +134,41 @@ html main {
     background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
     background: linear-gradient(to top, #8c7eb6, #7c73fff6);
   }
-  .separacion {
-    margin: 0 100px 0 100px;
+  .padre-imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .padre-imagenes .hijos-imagenes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+  }
+  .padre-imagenes .separacion {
+    margin: 100px;
+  }
+  .whatsapp {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50px;
+    background: #20c555;
+    color: #fff;
+  }
+  .whatsapp:hover {
+    color: #20c555;
+    background: #fff;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
   }
   .pie-links {
     display: -webkit-box;
@@ -156,14 +233,6 @@ header .fondo {
 
 .pagina .imagenes {
   border-radius: 5px;
-}
-
-.pagina .seccion-imagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .pagina .titulopaginas {
@@ -251,26 +320,6 @@ header .fondo {
 .contactar-section .logotipo-dos {
   width: 100px;
   background-color: #fff;
-}
-
-.whatsapp {
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  bottom: 25px;
-  right: 25px;
-  border-radius: 50px;
-  background: #20c555;
-  color: #fff;
-}
-
-.whatsapp:hover {
-  color: #20c555;
-  background: #fff;
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .pie {

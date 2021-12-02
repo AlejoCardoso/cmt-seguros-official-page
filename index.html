@@ -186,20 +186,13 @@
                 <section class="contactar-section" id="contacto">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="row container col-xl-6 col-md-12 col-sm-12 mt-5">
-                            <!-- <div class="formulario">
-                                <h4 class="text-black">Tú nombre</h4>
-                                <h4 class="text-black">Tú correo electrónico</h4>
-                                <h4 class="text-black">Tipo de seguro</h4>
-                                <h4 class="text-black">Dejános tú mensaje</h4>
-                                <button>Enviar</button>
-                            </div> -->
-                            <form class="formulario" id="form">
+                            <form class="formulario" id="form" onsubmit="setTimeout('document.forms[0].reset()', 2000)">
                               <div class="formulario-container">
                                   <h2 class="formulario-titulo">Contacto</h2>
-                                  <input id="name" type="text" class="formulario-input" placeholder="Nombre:" name="name">
-                                  <input id="email" type="email" class="formulario-input" placeholder="Email:" name="email">
-                                  <input id="phone" type="number" class="formulario-input" placeholder="Teléfono:" name="phone">
-                                  <textarea id="message" type="text" class="formulario-input formulario-input--message" placeholder="Mensaje:"></textarea>
+                                  <input id="name" type="text" class="formulario-input" placeholder="Nombre:" name="name" required>
+                                  <input id="email" type="email" class="formulario-input" placeholder="Email:" name="email" required>
+                                  <input id="phone" type="number" class="formulario-input" placeholder="Teléfono:" name="phone" required>
+                                  <textarea id="message" type="text" class="formulario-input formulario-input--message" placeholder="Mensaje:" name="message" required></textarea>
                                   <input id="button" type="submit" value="Enviar" class="formulario-cta">
                               </div>
                             </form>

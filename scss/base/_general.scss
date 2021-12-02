@@ -63,6 +63,10 @@ html {
         color: nth($list: $colores, $n: 2);
     }
 
+    .formulario {
+        padding: 4rem 1rem;
+    }
+
     .pie-links {
         display: flex;
         flex-direction: column;

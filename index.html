@@ -186,16 +186,36 @@
                 <section class="contactar-section">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="row container col-xl-6 col-md-12 col-sm-12 mt-5">
-                            <h2 id="contacto" class="contactar">
-                                Contacto
-                            </h2>
-                            <div class="formulario">
+                            <!-- <div class="formulario">
                                 <h4 class="text-black">Tú nombre</h4>
                                 <h4 class="text-black">Tú correo electrónico</h4>
                                 <h4 class="text-black">Tipo de seguro</h4>
                                 <h4 class="text-black">Dejános tú mensaje</h4>
                                 <button>Enviar</button>
-                            </div>
+                            </div> -->
+                            <form class="formulario" id="contacto">
+                              <div class="formulario-container">
+                                  <h2 class="formulario-titulo">Contacto</h2>
+                                  <input id="name" type="text" class="formulario-input" placeholder="Nombre:" name="name">
+                                  <input id="email" type="email" class="formulario-input" placeholder="Email:" name="email">
+                                  <input id="phone" type="number" class="formulario-input" placeholder="Teléfono:" name="phone">
+                                  <textarea id="message" type="text" class="formulario-input formulario-input--message" placeholder="Mensaje:"></textarea>
+                                  <input id="button" type="submit" value="Enviar" class="formulario-cta">
+                              </div>
+                            </form>
+                            
+                            <script type="text/javascript"
+                              src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+                            
+                            <script type="text/javascript">
+                              emailjs.init('user_5LAJOalBJbDwzG1hF3L2U')
+                            </script>
+
+                            <!-- Email JS -->
+                            <script type="text/javascript">
+                              emailjs.init('user_5LAJOalBJbDwzG1hF3L2U')
+                            </script>
+
                             <div class="row  container col-xl-12 col-md-12 col-sm-12">
                               <h2 class="visitanos">
                                   !Podés visitarnos en nuestra oficina!
@@ -257,5 +277,30 @@
     <script>
         AOS.init();
     </script>
+
+    <!-- Email JS -->
+    <script>
+                const btn = document.getElementById('button');
+
+        document.getElementById('form')
+        .addEventListener('submit', function(event) {
+          event.preventDefault();
+
+          btn.value = 'Enviando...';
+
+          const serviceID = 'default_service';
+          const templateID = 'template_hyxy3nr';
+
+          emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+              btn.value = 'Enviar';
+              alert('Mensaje enviado ¡Gracias por confiar en CMT Seguros!');
+            }, (err) => {
+              btn.value = 'Enviar';
+              alert(JSON.stringify(err));
+            });
+        });
+    </script>
+
 </body>
 </html>

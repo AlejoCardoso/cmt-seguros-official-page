@@ -14,6 +14,15 @@
 .titulos-corp {
     @extend %estilo;
     color: #fff;
+    background-color: rgba($color: #fff, $alpha: 0.3);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 255, 0);
+
+    &:hover {
+        border: 2px solid blue;
+    }
 }
 
 .titulos-sob {

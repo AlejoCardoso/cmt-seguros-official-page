@@ -5,6 +5,10 @@
   font-size: 2rem;
   font-family: $fuente-body;
 
+  .redondeado {
+    border-radius: 15px;
+  }
+
   .fondito {
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -17,9 +21,10 @@
 
   .imagenes {
     border-radius: 5px;
+    transition: all 500ms;
 
     &:hover {
-      transform: scale(1.2);
+      filter: brightness(60%);
     }
   }
 
@@ -34,6 +39,7 @@
   .contactar-section {
     border-top: 2px solid nth($list: $colores, $n: 1);
     border-bottom: 2px solid nth($list: $colores, $n: 1);
+
   
     .visitanos {
       font-size: 2rem;
@@ -41,8 +47,16 @@
       padding-top: 40px;
     }
   
-    .mapita {
+    .visita {
       margin: 40px 0px;
+    }
+
+    .mapita {
+      border-radius: 25px;
+    }
+
+    .inicio-formulario {
+      margin-top: 70px;
     }
   
     .formulario {
@@ -64,7 +78,7 @@
   .formulario-titulo {
       color: #4740b3;
       text-align: center;
-      font-size: 32px;
+      font-size: 4rem;
       margin-bottom: 10px;
   }
   

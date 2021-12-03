@@ -49,6 +49,15 @@ html main {
     background: -webkit-gradient(linear, left bottom, left top, from(#bdb2dd), to(#aea9fff6));
     background: linear-gradient(to top, #bdb2dd, #aea9fff6);
   }
+  .parrafo {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+  }
+  .carousel-fuente {
+    font-size: 1rem;
+  }
   .padre-imagenes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -63,6 +72,19 @@ html main {
   }
   .padre-imagenes .separacion {
     margin: 20px;
+  }
+  .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logos .logo-uno {
+    margin: 0 auto;
+    padding: 5px;
   }
   .whatsapp {
     position: fixed;
@@ -97,6 +119,15 @@ html main {
     background: -webkit-gradient(linear, left bottom, left top, from(#a495d1), to(#9088fff6));
     background: linear-gradient(to top, #a495d1, #9088fff6);
   }
+  .parrafo {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Roboto Slab", serif;
+  }
+  .carousel-fuente {
+    font-size: 1.5rem;
+  }
   .padre-imagenes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -111,6 +142,13 @@ html main {
   }
   .padre-imagenes .separacion {
     margin: 50px;
+  }
+  .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .whatsapp {
     position: fixed;
@@ -137,6 +175,15 @@ html main {
     background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
     background: linear-gradient(to top, #8c7eb6, #7c73fff6);
   }
+  .parrafo {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: "Roboto Slab", serif;
+  }
+  .carousel-fuente {
+    font-size: 1.5rem;
+  }
   .padre-imagenes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -154,6 +201,13 @@ html main {
   }
   .padre-imagenes .separacion {
     margin: 100px;
+  }
+  .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .whatsapp {
     position: fixed;
@@ -187,20 +241,9 @@ header {
   background-color: #4740b3;
 }
 
-header .redondeado {
-  border-radius: 20px;
-}
-
 header .inicio-logo {
   border-radius: 50%;
   width: 60px;
-}
-
-header .parrafo {
-  font-variant: small-caps;
-  text-transform: uppercase;
-  font-size: 3rem;
-  font-family: "Roboto Slab", serif;
 }
 
 header .tamaño-fuente {
@@ -224,6 +267,10 @@ header .fondo {
   font-family: "Poppins", sans-serif;
 }
 
+.pagina .redondeado {
+  border-radius: 15px;
+}
+
 .pagina .fondito {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -236,11 +283,13 @@ header .fondo {
 
 .pagina .imagenes {
   border-radius: 5px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .pagina .imagenes:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
 }
 
 .pagina .titulopaginas {
@@ -262,8 +311,16 @@ header .fondo {
   padding-top: 40px;
 }
 
-.pagina .contactar-section .mapita {
+.pagina .contactar-section .visita {
   margin: 40px 0px;
+}
+
+.pagina .contactar-section .mapita {
+  border-radius: 25px;
+}
+
+.pagina .contactar-section .inicio-formulario {
+  margin-top: 70px;
 }
 
 .pagina .contactar-section .formulario {
@@ -286,7 +343,7 @@ header .fondo {
 .pagina .contactar-section .formulario-titulo {
   color: #4740b3;
   text-align: center;
-  font-size: 32px;
+  font-size: 4rem;
   margin-bottom: 10px;
 }
 
@@ -350,6 +407,10 @@ header .fondo {
 .pie .links-pie li {
   color: #fff;
   padding: 15px;
+}
+
+.redondeado {
+  border-radius: 15px;
 }
 
 .titulos {

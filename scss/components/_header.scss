@@ -4,18 +4,10 @@
 
 header {
     background-color: $back-header;
-    .redondeado {
-        border-radius: 20px;
-    }
 
     .inicio-logo {
         border-radius: 50%;
         width: 60px;
-    }
-
-    .parrafo {
-        @include paragraph (small-caps, uppercase, 3rem);
-        font-family: $fuente-titulos;
     }
 
     .tamaño-fuente {

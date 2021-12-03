@@ -9,9 +9,9 @@
     .instag {
         color: nth($list: $colores, $n: 2);
     }
-}
-
-.links-pie li {
-    color: nth($list: $colores, $n: 2);
-    padding: 15px;
+    
+    .links-pie li {
+        color: nth($list: $colores, $n: 2);
+        padding: 15px;
+    }
 }

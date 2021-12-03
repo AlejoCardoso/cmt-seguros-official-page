@@ -238,6 +238,11 @@ header .fondo {
   border-radius: 5px;
 }
 
+.pagina .imagenes:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .pagina .titulopaginas {
   color: #fff;
   text-align: center;
@@ -246,66 +251,22 @@ header .fondo {
   padding-top: 30px;
 }
 
-.contactar-section {
+.pagina .contactar-section {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
 }
 
-.contactar-section .visitanos {
+.pagina .contactar-section .visitanos {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   padding-top: 40px;
 }
 
-.contactar-section .mapita {
-  padding-bottom: 40px;
+.pagina .contactar-section .mapita {
+  margin: 40px 0px;
 }
 
-@-webkit-keyframes mapa {
-  0% {
-    border-radius: 10px;
-  }
-  25% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  75% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-  100% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
-  }
-}
-
-@keyframes mapa {
-  0% {
-    border-radius: 10px;
-  }
-  25% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  75% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-  100% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
-  }
-}
-
-.contactar-section .formulario {
+.pagina .contactar-section .formulario {
   background-color: #fff;
   width: 90%;
   margin: auto;
@@ -314,7 +275,7 @@ header .fondo {
   padding: 42px 18px;
 }
 
-.contactar-section .formulario-container {
+.pagina .contactar-section .formulario-container {
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -322,14 +283,14 @@ header .fondo {
   grid-auto-columns: 100%;
 }
 
-.contactar-section .formulario-titulo {
+.pagina .contactar-section .formulario-titulo {
   color: #4740b3;
   text-align: center;
   font-size: 32px;
   margin-bottom: 10px;
 }
 
-.contactar-section .formulario-input {
+.pagina .contactar-section .formulario-input {
   font-size: 16px;
   padding: 10px 16px;
   outline: none;
@@ -338,23 +299,23 @@ header .fondo {
   border-radius: 5px;
 }
 
-.contactar-section input[type=number]::-webkit-inner-spin-button,
-.contactar-section input[type=number]::-webkit-outer-spin-button {
+.pagina .contactar-section input[type=number]::-webkit-inner-spin-button,
+.pagina .contactar-section input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.contactar-section input[type=number] {
+.pagina .contactar-section input[type=number] {
   -moz-appearance: textfield;
 }
 
-.contactar-section .formulario-input--message {
+.pagina .contactar-section .formulario-input--message {
   resize: none;
   padding: 20px 12px;
   margin-bottom: 8px;
 }
 
-.contactar-section .formulario-cta {
+.pagina .contactar-section .formulario-cta {
   background-color: #4740b3;
   color: #fff;
   border: none;
@@ -365,12 +326,12 @@ header .fondo {
   font-weight: 400;
 }
 
-.contactar-section .logotipo {
+.pagina .contactar-section .logotipo {
   width: 150px;
   background-color: #fff;
 }
 
-.contactar-section .logotipo-dos {
+.pagina .contactar-section .logotipo-dos {
   width: 100px;
   background-color: #fff;
 }
@@ -386,7 +347,7 @@ header .fondo {
   color: #fff;
 }
 
-.links-pie li {
+.pie .links-pie li {
   color: #fff;
   padding: 15px;
 }

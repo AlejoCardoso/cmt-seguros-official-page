@@ -1,9 +1,4 @@
 @charset "UTF-8";
-.titulos, .titulos-corp, .titulos-sob {
-  font-size: 4rem;
-  padding: 40px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +47,7 @@ html main {
   .parrafo {
     font-variant: small-caps;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Roboto Slab", serif;
   }
   .carousel-fuente {
@@ -96,6 +91,10 @@ html main {
     background: #20c555;
     color: #fff;
   }
+  .whatsapp:hover {
+    color: #20c555;
+    background: #fff;
+  }
   .formulario {
     padding: 4rem 1rem;
   }
@@ -126,7 +125,7 @@ html main {
     font-family: "Roboto Slab", serif;
   }
   .carousel-fuente {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .padre-imagenes {
     display: -webkit-box;
@@ -139,9 +138,6 @@ html main {
   }
   .padre-imagenes .hijos-imagenes {
     margin: 0 auto;
-  }
-  .padre-imagenes .separacion {
-    margin: 50px;
   }
   .logos {
     display: -webkit-box;
@@ -159,6 +155,10 @@ html main {
     border-radius: 50px;
     background: #20c555;
     color: #fff;
+  }
+  .whatsapp:hover {
+    color: #20c555;
+    background: #fff;
   }
   .pie-links {
     display: -webkit-box;
@@ -317,9 +317,18 @@ header .fondo {
 }
 
 .pagina .contactar-section .mapita {
-  border-radius: 25px;
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagina .contactar-section .map-iframe {
+  width: 60%;
+  border-radius: 15px;
 }
 
 .pagina .contactar-section .contacto-section {
@@ -427,10 +436,14 @@ header .fondo {
 }
 
 .titulos {
+  font-size: 4rem;
+  padding: 40px;
   color: #fff;
 }
 
 .titulos-corp {
+  font-size: 4rem;
+  padding: 40px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.3);
   width: 90%;
@@ -444,6 +457,8 @@ header .fondo {
 }
 
 .titulos-sob {
+  font-size: 4rem;
+  padding: 40px;
   color: #fff;
 }
 

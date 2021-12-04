@@ -7,17 +7,20 @@
 }
 
 .titulos {
-    @extend %estilo;
+    font-size: 4rem;
+    padding: 40px;
     color: #fff;
 }
 
 .titulos-corp {
-    @extend %estilo;
+    font-size: 4rem;
+    padding: 40px;
     color: #fff;
     background-color: rgba($color: #fff, $alpha: 0.3);
     width: 90%;
     margin: 0 auto;
     border-radius: 20px;
+
     border: 2px solid rgba(0, 0, 255, 0);
 
     &:hover {
@@ -26,7 +29,8 @@
 }
 
 .titulos-sob {
-    @extend %estilo;
+    font-size: 4rem;
+    padding: 40px;
     color: #fff;
 }
 

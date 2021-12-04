@@ -54,9 +54,14 @@
     }
 
     .mapita {
-      border-radius: 25px;
-      width: 70%;
-      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .map-iframe {
+      width: 60%;
+      border-radius: 15px;
     }
 
     .contacto-section {

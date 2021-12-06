@@ -6,7 +6,6 @@ header {
     background-color: $back-header;
 
     .inicio-logo {
-        border-radius: 50%;
         width: 60px;
     }
 
@@ -24,5 +23,9 @@ header {
 
     .fondo {
         background-color: nth($list: $colores, $n: 8);
+    }
+
+    .fondo li {
+        padding: 5px 30px;
     }
 }

@@ -8,30 +8,19 @@
 
 .titulos {
     font-size: 4rem;
-    padding: 40px;
-    color: #fff;
-}
-
-.titulos-corp {
-    font-size: 4rem;
-    padding: 40px;
+    padding: 10px;
     color: #fff;
     background-color: rgba($color: #fff, $alpha: 0.3);
     width: 90%;
     margin: 0 auto;
     border-radius: 20px;
+    text-align: center;
 
     border: 2px solid rgba(0, 0, 255, 0);
 
     &:hover {
-        border: 2px solid blue;
+        border: 2px solid #4740b3;
     }
-}
-
-.titulos-sob {
-    font-size: 4rem;
-    padding: 40px;
-    color: #fff;
 }
 
 .pag-list {
@@ -56,4 +45,14 @@
     
     font-family: $fuente-body;
     border-bottom: 2px solid nth($list: $colores, $n: 1);
+}
+
+.acordion-principal {
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .titulos-acordion {
+        font-size: 2rem;
+        color: #4740b3;
+    }
 }

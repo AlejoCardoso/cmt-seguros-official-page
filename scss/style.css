@@ -39,10 +39,48 @@ html main {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 309px) {
   body {
-    background: -webkit-gradient(linear, left bottom, left top, from(#bdb2dd), to(#aea9fff6));
-    background: linear-gradient(to top, #bdb2dd, #aea9fff6);
+    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
+    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
+  }
+  .tarjetas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card-perfil {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .image-card {
+    width: 90px;
+    height: 60px;
+  }
+  .whatsapp {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50px;
+    background: #20c555;
+    color: #fff;
+  }
+  .whatsapp:hover {
+    color: #20c555;
+    background: #fff;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 480px) {
+  body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
+    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
   }
   .parrafo {
     font-variant: small-caps;
@@ -67,6 +105,18 @@ html main {
   }
   .padre-imagenes .separacion {
     margin: 20px;
+  }
+  .tarjetas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjetas .card-perfil {
+    margin: 0 auto;
   }
   .logos {
     display: -webkit-box;
@@ -115,8 +165,8 @@ html main {
 
 @media screen and (min-width: 481px) and (max-width: 1023px) {
   body {
-    background: -webkit-gradient(linear, left bottom, left top, from(#a495d1), to(#9088fff6));
-    background: linear-gradient(to top, #a495d1, #9088fff6);
+    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
+    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
   }
   .parrafo {
     font-variant: small-caps;
@@ -137,6 +187,18 @@ html main {
             flex-direction: column;
   }
   .padre-imagenes .hijos-imagenes {
+    margin: 0 auto;
+  }
+  .tarjetas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card-perfil {
     margin: 0 auto;
   }
   .logos {
@@ -209,6 +271,51 @@ html main {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .tarjetas {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .card-perfil {
+    background-color: #fff;
+    width: 310px;
+    padding: 20px;
+    border: solid rgba(64, 224, 208, 0) 2px;
+    border-radius: 10px;
+  }
+  .image-card {
+    width: 200px;
+    height: 100px;
+    -webkit-box-shadow: 2px 2px 5px #b8b4b4;
+            box-shadow: 2px 2px 5px #b8b4b4;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .card-nombre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .parrafo-cards {
+    text-align: center;
+    padding: 10px;
+    color: gray;
+  }
   .whatsapp {
     position: fixed;
     width: 40px;
@@ -242,7 +349,6 @@ header {
 }
 
 header .inicio-logo {
-  border-radius: 50%;
   width: 60px;
 }
 
@@ -262,9 +368,46 @@ header .fondo {
   background-color: #8c7eb6;
 }
 
+header .fondo li {
+  padding: 5px 30px;
+}
+
 .pagina {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
+}
+
+.pagina .banner {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.pagina .banner-description {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.pagina .banner-description h2 {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
+.pagina .banner-description p {
+  margin: 20px 0;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .pagina .redondeado {
@@ -300,6 +443,34 @@ header .fondo {
   padding-top: 30px;
 }
 
+.pagina .tarjetas {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.pagina .card-perfil {
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid rgba(64, 224, 208, 0) 2px;
+  border-radius: 10px;
+}
+
+.pagina .card-perfil:hover {
+  border: solid #4740b3 2px;
+}
+
+.pagina .image-card {
+  -webkit-box-shadow: 2px 2px 5px #b8b4b4;
+          box-shadow: 2px 2px 5px #b8b4b4;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pagina .card-nombre {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .pagina .contactar-section {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
@@ -324,6 +495,13 @@ header .fondo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.pagina .contactar-section .mapita:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .pagina .contactar-section .map-iframe {
@@ -437,29 +615,18 @@ header .fondo {
 
 .titulos {
   font-size: 4rem;
-  padding: 40px;
-  color: #fff;
-}
-
-.titulos-corp {
-  font-size: 4rem;
-  padding: 40px;
+  padding: 10px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.3);
   width: 90%;
   margin: 0 auto;
   border-radius: 20px;
+  text-align: center;
   border: 2px solid rgba(0, 0, 255, 0);
 }
 
-.titulos-corp:hover {
-  border: 2px solid blue;
-}
-
-.titulos-sob {
-  font-size: 4rem;
-  padding: 40px;
-  color: #fff;
+.titulos:hover {
+  border: 2px solid #4740b3;
 }
 
 .pag-list {
@@ -499,5 +666,15 @@ header .fondo {
   background-color: #7c73fff6;
   font-family: "Poppins", sans-serif;
   border-bottom: 2px solid #000;
+}
+
+.acordion-principal {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.acordion-principal .titulos-acordion {
+  font-size: 2rem;
+  color: #4740b3;
 }
 /*# sourceMappingURL=style.css.map */

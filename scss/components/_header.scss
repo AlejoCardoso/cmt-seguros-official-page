@@ -10,7 +10,7 @@ header {
     }
 
     .tamaño-fuente {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .dropdown:hover .dropdown-menu {
@@ -23,9 +23,5 @@ header {
 
     .fondo {
         background-color: nth($list: $colores, $n: 8);
-    }
-
-    .fondo li {
-        padding: 5px 30px;
     }
 }

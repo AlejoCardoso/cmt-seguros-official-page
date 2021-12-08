@@ -18,8 +18,7 @@
   <meta property="og:tittle" content="C.M.T Seguros | Tú aseguradora de confianza">
   <meta property="og:url" content="https://www.cmtseguros.com">
   <meta property="og:image" content="https://ibb.co/8rJz0JY">
-  <meta property="og:description"
-    content="Somos C.M.T seguros, tú mejor opción a la hora de asegurar, ofrecemos gran cantidad de opciones para asegurar tú tranquilidad">
+  <meta property="og:description" content="Somos C.M.T seguros, tú mejor opción a la hora de asegurar, ofrecemos gran cantidad de opciones para asegurar tú tranquilidad">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="./src/img/LogoCMT.png">
@@ -58,7 +57,7 @@
 
 <body>
   <!-- Inicio header -->
-  <header id="inicio" class="cabseg">
+  <header id="inicio">
     <nav class="navbar navbar-expand-lg navbar-light tamaño-fuente">
       <div class="container">
         <a class="navbar-brand logo" href="index.html">
@@ -80,17 +79,17 @@
                 Seguros individuales
               </a>
               <ul class="dropdown-menu fondo" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/segurosindividuales.html">Hogar</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/segurosindividuales.html">Automóviles</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/segurosindividuales.html">Vida</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/segurosindividuales.html">Accidentes</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/segurosindividuales.html">Robo</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/segurosindividuales.html">Embarcaciones</a></li>
               </ul>
             </li>
@@ -100,14 +99,28 @@
                 Seguros corporativos
               </a>
               <ul class="dropdown-menu fondo" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/seguroscorporativos.html">Empresas</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/seguroscorporativos.html">Pymes</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/seguroscorporativos.html">Accidentes</a></li>
-                <li><a class="dropdown-item tamaño-fuente text-white efecto"
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
                     href="./pages/seguroscorporativos.html">Flotas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-white me-5">
+              <a class="nav-link dropdown-toggle text-white efecto" href="./pages/agro.html"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="nav-item" aria-expanded="false">
+                Agro
+              </a>
+              <ul class="dropdown-menu fondo" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
+                    href="./pages/agro.html">Maquinarias agrícolas</a></li>
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
+                    href="./pages/agro.html">Cosecha</a></li>
+                <li><a class="dropdown-item tamaño-fuente text-white efecto-drop"
+                    href="./pages/agro.html">Ganado</a></li>
               </ul>
             </li>
             <li class="nav-item me-5">
@@ -124,58 +137,14 @@
   <!-- Fin header -->
 
   <main class="pagina">
-    <section >
-      <!-- <div id="carouselExampleCaptions" class="carousel slide col-lg-10 col-md-12 col-sm-12 mt-4 container-fluid"
-        data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner redondeado">
-          <div class="carousel-item active">
-            <img src="./src/img/carouselhogar.jpg" class="d-block w-100" alt="Seguro para el hogar">
-            <div class="carousel-caption carousel-fuente fondito">
-              <h5>Hogar</h5>
-              <p>Nada mejor que asegurar tu hogar y vivir tranquilo.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./src/img/carouselobjetos.jpg" class="d-block w-100" alt="Seguro para objetos">
-            <div class="carousel-caption carousel-fuente fondito">
-              <h5>Objetos</h5>
-              <p>Asegurá tus objetos más preciados y dejá de preocuparte de la inseguridad.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./src/img/carouselauto.jpg" class="d-block w-100" alt="Seguro para auto">
-            <div class="carousel-caption carousel-fuente fondito">
-              <h5>Vehículos</h5>
-              <p>Con CMT seguros viajá tranquilo, en caso de que pase algo nosotros nos encargamos.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
+    <section>
       <div class="banner">
         <div class="banner-description">
             <h2>C.M.T Seguros</h2>
             <p class="text-white">Gracias por elegirnos, te aseguramos la mejor atención</p>
         </div>
-    </div>
-      </section>
+      </div>
+    </section>
       <section>
       <h1 class="mb-5">
         C.M.T Seguros | Tú aseguradora de confianza
@@ -354,14 +323,14 @@
   <footer class="pie">
     <div class="pie-links">
       <div class="separacion-links">
-        <a class="text-white" href="./pages/preguntasfrecuentes.html">Preguntas frecuentes</a>
+        <a class="font-color" href="./pages/preguntasfrecuentes.html">Preguntas frecuentes</a>
       </div>
       <div class="separacion-links">
-        <a class="text-white" href="./pages/terminosycondiciones.html">Términos y condiciones</a>
+        <a class="font-color" href="./pages/terminosycondiciones.html">Términos y condiciones</a>
       </div>
       <div>
         <div class="separacion-links">
-          <a class="instag" href="https://www.instagram.com/seguros.cmt/" target="_blank">
+          <a class="font-color" href="https://www.instagram.com/seguros.cmt/" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
               viewBox="0 0 16 16">
               <path
@@ -373,10 +342,10 @@
     </div>
     <div>
       <div class="col-auto">
-        <h4 class="text-white mt-5 ms-4">Servicio de atención al asegurado:</h4>
-        <h4 class="text-white mt-5 ms-4">Responsable: Barraco, Oscar Adrián</h4>
-        <h4 class="text-white mt-5 ms-4">Número de inscripción: 97.482</h4>
-        <h4 class="text-white mt-5 ms-4">Mandataria: Constantino, Carina Alejandra</h4>
+        <h4 class="font-color mt-5 ms-lg-4 ms-lg-4 ms-sm-2">Servicio de atención al asegurado:</h4>
+        <h4 class="font-color mt-5 ms-lg-4 ms-lg-4 ms-sm-2">Responsable: Barraco, Oscar Adrián</h4>
+        <h4 class="font-color mt-5 ms-lg-4 ms-lg-4 ms-sm-2">Número de inscripción: 97.482</h4>
+        <h4 class="font-color mt-5 ms-lg-4 ms-lg-4 ms-sm-2">Mandataria: Constantino, Carina Alejandra</h4>
       </div>
     </div>
   </footer>

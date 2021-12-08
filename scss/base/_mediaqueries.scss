@@ -1,22 +1,51 @@
-// mobile xs 
-@media screen and (max-width: 309px) {
-    body {
-        background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
+// xs super
+@media screen and (max-width: 140px) {
+    .parrafo {
+        display: none;
+    }
+
+    .banner-description h2 {
+        font-size: 2rem;
+    }
+
+    .banner-description p {
+        font-size: 1.4rem;
+    }
+
+    .efecto-drop:hover {
+        background: nth($list: $colores, $n: 7);
     }
 
     .tarjetas {
         display: flex;
         flex-direction: column;
+
+        .card-perfil {
+            width: 75px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    
+        .image-card {
+            width: 70px;
+            height: 45px
+        }
     }
 
-    .card-perfil {
-        width: 100px;
-        margin: 0 auto;
-    }
-
-    .image-card {
-        width: 90px;
-        height: 60px
+    .tarjetas-term {
+        display: flex;
+        flex-direction: column;
+        
+        .card-perfil-term {
+            width: 75px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    
+        .image-card-term {
+            width: 70px;
+            height: 45px
+        }
     }
 
     .whatsapp {
@@ -30,24 +59,147 @@
         }
     }
 
+    .logos {
+        display: flex;
+        flex-direction: column;
+        
+    .logo-uno {
+            margin: 0 auto;
+            padding: 5px;
+        }
+    }
+
+    .pie-links {
+        display: flex;
+        flex-direction: column;
+        padding: 1px 0px 0px 10px; 
+    }
+
+    .font-color {
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    .separacion-links {
+        padding: 1px 0px;
+    }
+
+    .titulopaginas {
+        font-size: 1.6rem;
+    }
 }
 
+// mobile xs 
+@media screen and (min-width: 141px) and (max-width: 309px) {
+    .parrafo {
+        font-size: 1.6rem;
+    }
 
+    .banner-description h2 {
+        font-size: 2.5rem;
+    }
 
+    .banner-description p {
+        font-size: 2rem;
+    }
+
+    .titulopaginas {
+        font-size: 1.8rem;
+    }
+
+    .efecto-drop:hover {
+        background: nth($list: $colores, $n: 7);
+    }
+
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+
+        .card-perfil {
+            width: 100px;
+            margin: 0 auto;
+        }
+    
+        .image-card {
+            width: 90px;
+            height: 60px
+        }
+    }
+
+    .tarjetas-term {
+        display: flex;
+        flex-direction: column;
+        
+        .card-perfil-term {
+            width: 100px;
+            margin: 0 auto;
+        }
+    
+        .image-card-term {
+            width: 90px;
+            height: 60px
+        }
+    }
+
+    .whatsapp {
+        @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
+        background: nth($list: $colores, $n: 3);
+        color: nth($list: $colores, $n: 2);
+
+        &:hover {
+            color: nth($list: $colores, $n: 3);
+            background: nth($list: $colores, $n: 2);
+        }
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: column;
+        
+    .logo-uno {
+            margin: 0 auto;
+            padding: 5px;
+        }
+    }
+
+    .pie-links {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 0px 20px; 
+    }
+
+    .font-color {
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    .separacion-links {
+        padding: 20px 0px;
+    }
+
+    .titulopaginas {
+        font-size: 2rem;
+    }
+}
 
 // mobile
 @media screen and (min-width:310px) and (max-width: 480px) {
-    body {
-        background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
+
+    .efecto-drop:hover {
+        background: nth($list: $colores, $n: 7);
     }
 
     .parrafo {
-        @include paragraph (small-caps, uppercase, 2rem);
+        @include paragraph (small-caps, uppercase, 1.6rem);
         font-family: $fuente-titulos;
     }
 
-    .carousel-fuente {
-        font-size: 1rem;
+    .banner-description h2 {
+        font-size: 2.8rem;
+    }
+
+    .banner-description p {
+        font-size: 2.2rem;
     }
 
     .padre-imagenes {
@@ -72,6 +224,14 @@
         }
     }
 
+    .tarjetas-term {
+        display: flex;
+        flex-direction: column;
+        
+        .card-perfil-term {
+            margin: 0 auto;
+        }
+    }
 
     .logos {
         display: flex;
@@ -99,30 +259,44 @@
     }
 
     .pie-links {
+        font-size: 2rem;
         display: flex;
         flex-direction: column;
         padding: 20px 0px 0px 20px; 
     }
 
+    .font-color {
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
     .separacion-links {
         padding: 20px 0px;
+    }
+
+    .titulopaginas {
+        font-size: 2.2rem;
     }
 }
 
 // tablet 
-
 @media screen and (min-width:481px) and (max-width:1023px) {
-    body {
-        background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
+
+    .efecto-drop:hover {
+        background: nth($list: $colores, $n: 7);
     }
 
     .parrafo {
-            @include paragraph (small-caps, uppercase, 2rem);
+            @include paragraph (small-caps, uppercase, 1.8rem);
             font-family: $fuente-titulos;
         }
 
-    .carousel-fuente {
-            font-size: 2rem;
+        .banner-description h2 {
+            font-size: 3.0rem;
+        }
+    
+        .banner-description p {
+            font-size: 2.5rem;
         }
 
     .padre-imagenes {
@@ -137,12 +311,26 @@
     .tarjetas {
         display: flex;
         flex-direction: column;
+
+        .card-perfil {
+            margin: 0 auto;
+        }
+    
+        .logos {
+                display: flex;
+                justify-content: space-around;
+            }
     }
 
-    .card-perfil {
-        margin: 0 auto;
+    .tarjetas-term {
+        display: flex;
+        flex-direction: column;
+        
+        .card-perfil-term {
+            margin: 0 auto;
+        }
     }
-
+    
     .logos {
             display: flex;
             justify-content: space-around;
@@ -159,27 +347,44 @@
             }
     }
 
+    .titulopaginas {
+        font-size: 3rem;
+    }
+
     .pie-links {
-            display: flex;
-            justify-content: space-around;
-            padding-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        }
+
+    .font-color {
+            font-size: 1.6rem;
+            color: #fff;
         }
     }
 
 // desktop
 
 @media screen and (min-width: 1024px) {
-    body {
-        background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
+    .efecto-drop {
+        padding-right: 100px;
+
+        &:hover {
+            background: nth($list: $colores, $n: 7);
+        }
     }
 
     .parrafo {
-        @include paragraph (small-caps, uppercase, 3rem);
+        @include paragraph (small-caps, uppercase, 2rem);
         font-family: $fuente-titulos;
     }
 
-    .carousel-fuente {
-        font-size: 1.5rem;
+    .banner-description h2 {
+        font-size: 3.2rem;
+    }
+
+    .banner-description p {
+        font-size: 2.8rem;
     }
 
     .padre-imagenes {
@@ -209,35 +414,74 @@
         justify-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
+
+        .card-perfil {
+          background-color: #fff;
+          width: 310px;
+          padding: 20px;
+          border: solid rgba(64, 224, 208, 0) 2px;
+          border-radius: 10px;
+        }
+      
+        .image-card {
+          width: 200px;
+          height: 100px;
+          box-shadow: 2px 2px 5px rgb(184, 180, 180);
+          border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+      
+        .card-nombre {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+      
+        .parrafo-cards {
+          text-align: center;
+          padding: 10px;
+          color: gray;
+        }
       }
-    
-      .card-perfil {
-        background-color: #fff;
-        width: 310px;
-        padding: 20px;
-        border: solid rgba(64, 224, 208, 0) 2px;
-        border-radius: 10px;
-      }
-    
-      .image-card {
-        width: 200px;
-        height: 100px;
-        box-shadow: 2px 2px 5px rgb(184, 180, 180);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-      }
-    
-      .card-nombre {
+
+      .tarjetas-term {
+        background-color: rgba(255, 255, 255, 0);
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+        .card-perfil-term {
+          background-color: #fff;
+          width: 310px;
+          padding: 20px;
+          border: solid rgba(64, 224, 208, 0) 2px;
+          border-radius: 10px;
+        }
+      
+        .image-card-term {
+          width: 200px;
+          height: 100px;
+          box-shadow: 2px 2px 5px rgb(184, 180, 180);
+          border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+      
+        .card-nombre-term {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+      
+        .parrafo-cards-term {
+          text-align: center;
+          padding: 10px;
+          color: gray;
+        }
       }
     
-      .parrafo-cards {
-        text-align: center;
-        padding: 10px;
-        color: gray;
-      }
 
     .whatsapp {
         @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
@@ -253,9 +497,18 @@
         }
     }
 
+    .titulopaginas {
+        font-size: 4rem;
+    }
+
     .pie-links {
         display: flex;
         justify-content: space-around;
         padding-top: 20px;
+    }
+
+    .font-color {
+        font-size: 1.6rem;
+        color: #fff;
     }
 }

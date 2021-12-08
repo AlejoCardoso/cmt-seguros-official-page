@@ -14,6 +14,8 @@ html {
 
 html body {
   width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
+  background: linear-gradient(to top, #8c7eb6, #7c73fff6);
 }
 
 html h1 {
@@ -39,10 +41,18 @@ html main {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 309px) {
-  body {
-    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
-    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
+@media screen and (max-width: 140px) {
+  .parrafo {
+    display: none;
+  }
+  .banner-description h2 {
+    font-size: 2rem;
+  }
+  .banner-description p {
+    font-size: 1.4rem;
+  }
+  .efecto-drop:hover {
+    background: #9088fff6;
   }
   .tarjetas {
     display: -webkit-box;
@@ -53,11 +63,129 @@ html main {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .card-perfil {
+  .tarjetas .card-perfil {
+    width: 75px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  .tarjetas .image-card {
+    width: 70px;
+    height: 45px;
+  }
+  .tarjetas-term {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjetas-term .card-perfil-term {
+    width: 75px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  .tarjetas-term .image-card-term {
+    width: 70px;
+    height: 45px;
+  }
+  .whatsapp {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50px;
+    background: #20c555;
+    color: #fff;
+  }
+  .whatsapp:hover {
+    color: #20c555;
+    background: #fff;
+  }
+  .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logos .logo-uno {
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .pie-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1px 0px 0px 10px;
+  }
+  .font-color {
+    font-size: 1rem;
+    color: #fff;
+  }
+  .separacion-links {
+    padding: 1px 0px;
+  }
+  .titulopaginas {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 141px) and (max-width: 309px) {
+  .parrafo {
+    font-size: 1.6rem;
+  }
+  .banner-description h2 {
+    font-size: 2.5rem;
+  }
+  .banner-description p {
+    font-size: 2rem;
+  }
+  .titulopaginas {
+    font-size: 1.8rem;
+  }
+  .efecto-drop:hover {
+    background: #9088fff6;
+  }
+  .tarjetas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjetas .card-perfil {
     width: 100px;
     margin: 0 auto;
   }
-  .image-card {
+  .tarjetas .image-card {
+    width: 90px;
+    height: 60px;
+  }
+  .tarjetas-term {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjetas-term .card-perfil-term {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .tarjetas-term .image-card-term {
     width: 90px;
     height: 60px;
   }
@@ -75,21 +203,56 @@ html main {
     color: #20c555;
     background: #fff;
   }
+  .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logos .logo-uno {
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .pie-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0px 0px 20px;
+  }
+  .font-color {
+    font-size: 1.4rem;
+    color: #fff;
+  }
+  .separacion-links {
+    padding: 20px 0px;
+  }
+  .titulopaginas {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 310px) and (max-width: 480px) {
-  body {
-    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
-    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
+  .efecto-drop:hover {
+    background: #9088fff6;
   }
   .parrafo {
     font-variant: small-caps;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: "Roboto Slab", serif;
   }
-  .carousel-fuente {
-    font-size: 1rem;
+  .banner-description h2 {
+    font-size: 2.8rem;
+  }
+  .banner-description p {
+    font-size: 2.2rem;
   }
   .padre-imagenes {
     display: -webkit-box;
@@ -116,6 +279,18 @@ html main {
             flex-direction: column;
   }
   .tarjetas .card-perfil {
+    margin: 0 auto;
+  }
+  .tarjetas-term {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjetas-term .card-perfil-term {
     margin: 0 auto;
   }
   .logos {
@@ -149,6 +324,7 @@ html main {
     padding: 4rem 1rem;
   }
   .pie-links {
+    font-size: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -158,24 +334,33 @@ html main {
             flex-direction: column;
     padding: 20px 0px 0px 20px;
   }
+  .font-color {
+    font-size: 1.4rem;
+    color: #fff;
+  }
   .separacion-links {
     padding: 20px 0px;
+  }
+  .titulopaginas {
+    font-size: 2.2rem;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 1023px) {
-  body {
-    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
-    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
+  .efecto-drop:hover {
+    background: #9088fff6;
   }
   .parrafo {
     font-variant: small-caps;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: "Roboto Slab", serif;
   }
-  .carousel-fuente {
-    font-size: 2rem;
+  .banner-description h2 {
+    font-size: 3.0rem;
+  }
+  .banner-description p {
+    font-size: 2.5rem;
   }
   .padre-imagenes {
     display: -webkit-box;
@@ -198,7 +383,26 @@ html main {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .card-perfil {
+  .tarjetas .card-perfil {
+    margin: 0 auto;
+  }
+  .tarjetas .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .tarjetas-term {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjetas-term .card-perfil-term {
     margin: 0 auto;
   }
   .logos {
@@ -222,6 +426,9 @@ html main {
     color: #20c555;
     background: #fff;
   }
+  .titulopaginas {
+    font-size: 3rem;
+  }
   .pie-links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -230,21 +437,30 @@ html main {
         justify-content: space-around;
     padding-top: 20px;
   }
+  .font-color {
+    font-size: 1.6rem;
+    color: #fff;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
-    background: linear-gradient(to top, #8c7eb6, #7c73fff6);
+  .efecto-drop {
+    padding-right: 100px;
+  }
+  .efecto-drop:hover {
+    background: #9088fff6;
   }
   .parrafo {
     font-variant: small-caps;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Roboto Slab", serif;
   }
-  .carousel-fuente {
-    font-size: 1.5rem;
+  .banner-description h2 {
+    font-size: 3.2rem;
+  }
+  .banner-description p {
+    font-size: 2.8rem;
   }
   .padre-imagenes {
     display: -webkit-box;
@@ -284,21 +500,21 @@ html main {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .card-perfil {
+  .tarjetas .card-perfil {
     background-color: #fff;
     width: 310px;
     padding: 20px;
     border: solid rgba(64, 224, 208, 0) 2px;
     border-radius: 10px;
   }
-  .image-card {
+  .tarjetas .image-card {
     width: 200px;
     height: 100px;
     -webkit-box-shadow: 2px 2px 5px #b8b4b4;
             box-shadow: 2px 2px 5px #b8b4b4;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .card-nombre {
+  .tarjetas .card-nombre {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -311,7 +527,52 @@ html main {
             align-items: center;
     gap: 10px;
   }
-  .parrafo-cards {
+  .tarjetas .parrafo-cards {
+    text-align: center;
+    padding: 10px;
+    color: gray;
+  }
+  .tarjetas-term {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .tarjetas-term .card-perfil-term {
+    background-color: #fff;
+    width: 310px;
+    padding: 20px;
+    border: solid rgba(64, 224, 208, 0) 2px;
+    border-radius: 10px;
+  }
+  .tarjetas-term .image-card-term {
+    width: 200px;
+    height: 100px;
+    -webkit-box-shadow: 2px 2px 5px #b8b4b4;
+            box-shadow: 2px 2px 5px #b8b4b4;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .tarjetas-term .card-nombre-term {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .tarjetas-term .parrafo-cards-term {
     text-align: center;
     padding: 10px;
     color: gray;
@@ -334,6 +595,9 @@ html main {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
+  .titulopaginas {
+    font-size: 4rem;
+  }
   .pie-links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -341,6 +605,10 @@ html main {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     padding-top: 20px;
+  }
+  .font-color {
+    font-size: 1.6rem;
+    color: #fff;
   }
 }
 
@@ -353,7 +621,7 @@ header .inicio-logo {
 }
 
 header .tamaño-fuente {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 header .dropdown:hover .dropdown-menu {
@@ -366,10 +634,6 @@ header .efecto:hover {
 
 header .fondo {
   background-color: #8c7eb6;
-}
-
-header .fondo li {
-  padding: 5px 30px;
 }
 
 .pagina {
@@ -400,13 +664,11 @@ header .fondo li {
 
 .pagina .banner-description h2 {
   font-weight: 600;
-  font-size: 36px;
   text-align: center;
 }
 
 .pagina .banner-description p {
   margin: 20px 0;
-  font-size: 2rem;
   text-align: center;
 }
 
@@ -438,7 +700,6 @@ header .fondo li {
 .pagina .titulopaginas {
   color: #fff;
   text-align: center;
-  font-size: 4rem;
   font-family: "Roboto Slab", serif;
   padding-top: 30px;
 }
@@ -447,7 +708,7 @@ header .fondo li {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.pagina .card-perfil {
+.pagina .tarjetas .card-perfil {
   background-color: #fff;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -455,17 +716,17 @@ header .fondo li {
   border-radius: 10px;
 }
 
-.pagina .card-perfil:hover {
+.pagina .tarjetas .card-perfil:hover {
   border: solid #4740b3 2px;
 }
 
-.pagina .image-card {
+.pagina .tarjetas .image-card {
   -webkit-box-shadow: 2px 2px 5px #b8b4b4;
           box-shadow: 2px 2px 5px #b8b4b4;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.pagina .card-nombre {
+.pagina .tarjetas .card-nombre {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -613,6 +874,62 @@ header .fondo li {
   border-radius: 15px;
 }
 
+.banner-uno, .banner-dos, .banner-tres, .banner-cuatro, .banner-cinco, .banner-seis {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.banner-uno .banner-description, .banner-dos .banner-description, .banner-tres .banner-description, .banner-cuatro .banner-description, .banner-cinco .banner-description, .banner-seis .banner-description {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.banner-uno .banner-description h2, .banner-dos .banner-description h2, .banner-tres .banner-description h2, .banner-cuatro .banner-description h2, .banner-cinco .banner-description h2, .banner-seis .banner-description h2 {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
+.banner-uno .banner-description p, .banner-dos .banner-description p, .banner-tres .banner-description p, .banner-cuatro .banner-description p, .banner-cinco .banner-description p, .banner-seis .banner-description p {
+  margin: 20px 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.banner-uno {
+  background: center fixed url("../src/img/carouselauto.jpg");
+}
+
+.banner-dos {
+  background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-tres {
+  background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-cuatro {
+  background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-cinco {
+  background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-seis {
+  background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
 .titulos {
   font-size: 4rem;
   padding: 10px;
@@ -627,6 +944,50 @@ header .fondo li {
 
 .titulos:hover {
   border: 2px solid #4740b3;
+}
+
+.tarjetas-term {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.tarjetas-term .card-perfil-term {
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid rgba(64, 224, 208, 0) 2px;
+  border-radius: 10px;
+}
+
+.tarjetas-term .card-perfil-term:hover {
+  border: solid #4740b3 2px;
+}
+
+.tarjetas-term .image-card-term {
+  -webkit-box-shadow: 2px 2px 5px #b8b4b4;
+          box-shadow: 2px 2px 5px #b8b4b4;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tarjetas-term .card-nombre-term {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tarjetas-term .card-button-term {
+  margin: 0 auto;
+  background-color: #4740b3;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.tarjetas-term .card-button-term .enlace-term {
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
 }
 
 .pag-list {
@@ -663,18 +1024,9 @@ header .fondo li {
 
 .paginas-secundarias {
   font-size: 2rem;
-  background-color: #7c73fff6;
+  background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
+  background: linear-gradient(to top, #8c7eb6, #7c73fff6);
   font-family: "Poppins", sans-serif;
   border-bottom: 2px solid #000;
-}
-
-.acordion-principal {
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
-.acordion-principal .titulos-acordion {
-  font-size: 2rem;
-  color: #4740b3;
 }
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,58 @@
     border-radius: 15px;
 }
 
+.banner-uno, .banner-dos, .banner-tres, .banner-cuatro, .banner-cinco, .banner-seis {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+    .banner-description {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 90%;
+        max-width: 1000px;
+        display: block;
+        margin: auto;
+    }
+    
+    .banner-description h2 {
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .banner-description p {
+      margin: 20px 0;
+      font-size: 2rem;
+      text-align: center
+    }
+}
+
+.banner-uno {
+    background: center fixed url("../src/img/carouselauto.jpg");
+}
+
+.banner-dos {
+    background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-tres {
+    background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-cuatro {
+    background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-cinco {
+    background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
+.banner-seis {
+    background: center fixed url("../src/img/carouselhogar.jpg");
+}
+
 .titulos {
     font-size: 4rem;
     padding: 10px;
@@ -22,6 +74,48 @@
         border: 2px solid #4740b3;
     }
 }
+
+.tarjetas-term {
+    background-color: rgba(255, 255, 255, 0);
+
+    .card-perfil-term {
+      background-color: #fff;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border: solid rgba(64, 224, 208, 0) 2px;
+      border-radius: 10px;
+  
+      &:hover {
+        border: solid #4740b3 2px;
+    }
+    }
+
+    .image-card-term {
+      box-shadow: 2px 2px 5px rgb(184, 180, 180);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  
+    .card-nombre-term {
+      align-items: center;
+    }
+
+    .card-button-term {
+        margin: 0 auto;
+        background-color: #4740b3;
+        border: none;
+        width: 100px;
+        border-radius: 5px;
+
+        .enlace-term {
+            display: block;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+    
+  }
 
 .pag-list {
     @include pages (flex, column, 0 40px 40px 40px, none);
@@ -40,19 +134,9 @@
 }
 
 .paginas-secundarias {
-    font-size: map-get($map: $paginas, $key: fontsize);
-    background-color: map-get($map: $paginas, $key: colorback);
+    font-size: 2rem;
+    background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
     
     font-family: $fuente-body;
     border-bottom: 2px solid nth($list: $colores, $n: 1);
-}
-
-.acordion-principal {
-    margin: 0 auto;
-    padding: 20px 0;
-
-    .titulos-acordion {
-        font-size: 2rem;
-        color: #4740b3;
-    }
 }

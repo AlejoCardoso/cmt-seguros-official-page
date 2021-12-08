@@ -24,13 +24,11 @@
 
 .banner-description h2 {
     font-weight: 600;
-    font-size: 36px;
     text-align: center;
 }
 
 .banner-description p {
   margin: 20px 0;
-  font-size: 2rem;
   text-align: center
 }
 
@@ -60,34 +58,33 @@
   .titulopaginas {
     color: $color-fuente;
     text-align: center;
-    font-size: 4rem;
     font-family: $fuente-titulos;
     padding-top: 30px;
   }
 
   .tarjetas {
     background-color: rgba(255, 255, 255, 0);
-  }
 
-  .card-perfil {
-    background-color: #fff;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: solid rgba(64, 224, 208, 0) 2px;
-    border-radius: 10px;
+    .card-perfil {
+      background-color: #fff;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border: solid rgba(64, 224, 208, 0) 2px;
+      border-radius: 10px;
+  
+      &:hover {
+        border: solid #4740b3 2px;
+    }
+    }
 
-    &:hover {
-      border: solid #4740b3 2px;
-  }
-  }
-
-  .image-card {
-    box-shadow: 2px 2px 5px rgb(184, 180, 180);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .card-nombre {
-    align-items: center;
+    .image-card {
+      box-shadow: 2px 2px 5px rgb(184, 180, 180);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  
+    .card-nombre {
+      align-items: center;
+    }
   }
 
   .contactar-section {

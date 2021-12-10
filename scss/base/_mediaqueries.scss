@@ -12,8 +12,26 @@
         font-size: 1.4rem;
     }
 
+    .banner-description-pages h2 {
+        font-size: 2rem;
+    }
+
+    .banner-description-pages p {
+        font-size: 1.4rem;
+    }
+
     .efecto-drop:hover {
         background: nth($list: $colores, $n: 7);
+    }
+
+    .image-texto {
+        margin-top: 5px;
+        font-size: 1.2rem;
+    }
+
+    .parrafodescription {
+        margin-top: 10px;
+        font-size: 1.2rem;
     }
 
     .tarjetas {
@@ -30,6 +48,13 @@
             width: 70px;
             height: 45px
         }
+
+        .parrafo-cards {
+            font-size: 1.2rem;
+              text-align: center;
+              padding: 4px;
+              color: gray;
+            }
     }
 
     .tarjetas-term {
@@ -46,6 +71,18 @@
             width: 70px;
             height: 45px
         }
+    }
+
+    .visitanos {
+        font-size: 1.2rem;
+    }
+
+    .formulario-titulo {
+        font-size: 1.8rem;
+    }
+
+    .formulario-input {
+        font-size: 1.2rem;
     }
 
     .whatsapp {
@@ -75,9 +112,8 @@
         padding: 1px 0px 0px 10px; 
     }
 
-    .font-color {
+    .font-pie {
         font-size: 1rem;
-        color: #fff;
     }
 
     .separacion-links {
@@ -86,6 +122,10 @@
 
     .titulopaginas {
         font-size: 1.6rem;
+    }
+
+    .titulo-estilos {
+        font-size: 1.2rem;
     }
 }
 
@@ -103,12 +143,28 @@
         font-size: 2rem;
     }
 
+    .banner-description-pages h2 {
+        font-size: 2.5rem;
+    }
+
+    .banner-description-pages p {
+        font-size: 2rem;
+    }
+
     .titulopaginas {
         font-size: 1.8rem;
     }
 
     .efecto-drop:hover {
         background: nth($list: $colores, $n: 7);
+    }
+
+    .image-texto {
+        font-size: 1.4rem;
+    }
+
+    .parrafodescription {
+        font-size: 1.4rem;
     }
 
     .tarjetas {
@@ -124,6 +180,13 @@
             width: 90px;
             height: 60px
         }
+
+        .parrafo-cards {
+            font-size: 1.4rem;
+              text-align: center;
+              padding: 6px;
+              color: gray;
+            }
     }
 
     .tarjetas-term {
@@ -139,6 +202,18 @@
             width: 90px;
             height: 60px
         }
+    }
+
+    .visitanos {
+        font-size: 1.4rem;
+    }
+
+    .formulario-titulo {
+        font-size: 2.2rem;
+    }
+
+    .formulario-input {
+        font-size: 1.4rem;
     }
 
     .whatsapp {
@@ -168,9 +243,8 @@
         padding: 20px 0px 0px 20px; 
     }
 
-    .font-color {
+    .font-pie {
         font-size: 1.4rem;
-        color: #fff;
     }
 
     .separacion-links {
@@ -178,6 +252,10 @@
     }
 
     .titulopaginas {
+        font-size: 2rem;
+    }
+
+    .titulo-estilos {
         font-size: 2rem;
     }
 }
@@ -202,6 +280,18 @@
         font-size: 2.2rem;
     }
 
+    .banner-description-pages h2 {
+        font-size: 2.8rem;
+    }
+
+    .banner-description-pages p {
+        font-size: 2.2rem;
+    }
+
+    .image-texto {
+        font-size: 1.6rem;
+    }
+
     .padre-imagenes {
         display: flex;
         flex-direction: column;
@@ -215,6 +305,10 @@
         }
     }
 
+    .parrafodescription {
+        font-size: 1.6rem;
+    }
+
     .tarjetas {
         display: flex;
         flex-direction: column;
@@ -222,6 +316,13 @@
         .card-perfil {
             margin: 0 auto;
         }
+
+        .parrafo-cards {
+            font-size: 1.6rem;
+              text-align: center;
+              padding: 8px;
+              color: gray;
+            }
     }
 
     .tarjetas-term {
@@ -231,6 +332,18 @@
         .card-perfil-term {
             margin: 0 auto;
         }
+    }
+
+    .formulario-titulo {
+        font-size: 2.8rem;
+    }
+
+    .formulario-input {
+        font-size: 1.4rem;
+    }
+
+    .visitanos {
+        font-size: 1.6rem;
     }
 
     .logos {
@@ -258,6 +371,10 @@
         padding: 4rem 1rem;
     }
 
+    .formulario-titulo {
+        font-size: 2.5rem;
+    }
+
     .pie-links {
         font-size: 2rem;
         display: flex;
@@ -265,9 +382,8 @@
         padding: 20px 0px 0px 20px; 
     }
 
-    .font-color {
+    .font-pie {
         font-size: 1.4rem;
-        color: #fff;
     }
 
     .separacion-links {
@@ -275,6 +391,10 @@
     }
 
     .titulopaginas {
+        font-size: 2.2rem;
+    }
+
+    .titulo-estilos {
         font-size: 2.2rem;
     }
 }
@@ -299,6 +419,18 @@
             font-size: 2.5rem;
         }
 
+        .banner-description-pages h2 {
+            font-size: 3.0rem;
+        }
+    
+        .banner-description-pages p {
+            font-size: 2.5rem;
+        }
+
+    .image-texto {
+            font-size: 1.8rem;
+        }
+
     .padre-imagenes {
             display: flex;
             flex-direction: column;
@@ -308,6 +440,10 @@
             }
         }
 
+    .parrafodescription {
+            font-size: 1.8rem;
+        }
+
     .tarjetas {
         display: flex;
         flex-direction: column;
@@ -315,12 +451,18 @@
         .card-perfil {
             margin: 0 auto;
         }
-    
-        .logos {
-                display: flex;
-                justify-content: space-around;
+        
+        .parrafo-cards {
+            font-size: 1.8rem;
+              text-align: center;
+              padding: 8px;
+              color: gray;
             }
     }
+    .logos {
+            display: flex;
+            justify-content: space-around;
+        }
 
     .tarjetas-term {
         display: flex;
@@ -329,6 +471,18 @@
         .card-perfil-term {
             margin: 0 auto;
         }
+    }
+
+    .formulario-titulo {
+        font-size: 3rem;
+    }
+
+    .formulario-input {
+        font-size: 1.6rem;
+    }
+
+    .visitanos {
+        font-size: 1.8rem;
     }
     
     .logos {
@@ -351,15 +505,18 @@
         font-size: 3rem;
     }
 
+    .titulo-estilos {
+        font-size: 3rem;
+    }
+
     .pie-links {
         display: flex;
         justify-content: space-around;
         padding-top: 20px;
         }
 
-    .font-color {
+    .font-pie {
             font-size: 1.6rem;
-            color: #fff;
         }
     }
 
@@ -387,6 +544,18 @@
         font-size: 2.8rem;
     }
 
+    .banner-description-pages h2 {
+        font-size: 3.2rem;
+    }
+
+    .banner-description-pages p {
+        font-size: 2.8rem;
+    }
+
+    .image-texto {
+    font-size: 2rem;
+    }
+
     .padre-imagenes {
         display: flex;
         justify-content: center;
@@ -399,6 +568,18 @@
         .separacion {
             margin: 100px;
         }
+    }
+
+    .parrafodescription {
+        font-size: 2rem;
+    }
+
+    .formulario-titulo {
+        font-size: 3.8rem;
+    }
+
+    .formulario-input {
+        font-size: 1.6rem;
     }
 
     .logos {
@@ -438,6 +619,7 @@
         }
       
         .parrafo-cards {
+        font-size: 2rem;
           text-align: center;
           padding: 10px;
           color: gray;
@@ -476,12 +658,20 @@
         }
       
         .parrafo-cards-term {
+        font-size: 2rem;
           text-align: center;
           padding: 10px;
           color: gray;
         }
+
+        .enlace-term {
+            font-size: 1.8rem;
+        }
       }
     
+    .visitanos {
+        font-size: 2rem;
+    }
 
     .whatsapp {
         @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
@@ -498,7 +688,11 @@
     }
 
     .titulopaginas {
-        font-size: 4rem;
+        font-size: 3.4rem;
+    }
+
+    .titulo-estilos {
+        font-size: 3.4rem;
     }
 
     .pie-links {
@@ -507,8 +701,7 @@
         padding-top: 20px;
     }
 
-    .font-color {
+    .font-pie {
         font-size: 1.6rem;
-        color: #fff;
     }
 }

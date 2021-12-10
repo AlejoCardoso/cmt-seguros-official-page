@@ -12,26 +12,27 @@
     align-items: center;
     text-align: left;
     background: center fixed url("../src/img/carouselhogar.jpg");
-}
 
-.banner-description {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 90%;
-    max-width: 1000px;
-    display: block;
-    margin: auto;
-}
-
-.banner-description h2 {
-    font-weight: 600;
-    text-align: center;
-}
-
-.banner-description p {
-  margin: 20px 0;
-  text-align: center
-}
-
+    .banner-description {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 90%;
+        max-width: 1000px;
+        display: block;
+        margin: auto;
+    }
+    
+  }
+  
+  .banner-description h2 {
+      font-weight: 600;
+      text-align: center;
+  }
+  
+  .banner-description p {
+    margin: 20px 0;
+    text-align: center
+  }
+  
   .redondeado {
     border-radius: 15px;
   }
@@ -42,8 +43,8 @@
 
   .image-texto {
     color: $color-fuente;
-    font-size: 2rem;
     font-style: oblique;
+    text-align: center;
   }
 
   .imagenes {
@@ -74,6 +75,7 @@
   
       &:hover {
         border: solid #4740b3 2px;
+        filter: brightness(80%);
     }
     }
 
@@ -93,7 +95,6 @@
 
   
     .visitanos {
-      font-size: 2rem;
       font-family: $fuente-body;
       padding-top: 40px;
       text-align: center;
@@ -147,12 +148,10 @@
   .formulario-titulo {
       color: #4740b3;
       text-align: center;
-      font-size: 4rem;
       margin-bottom: 10px;
   }
   
   .formulario-input {
-      font-size: 16px;
       padding: 10px 16px;
       outline: none;
       border: none;

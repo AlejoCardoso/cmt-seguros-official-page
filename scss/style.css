@@ -31,7 +31,6 @@ html h2 {
 }
 
 html .parrafodescription {
-  font-size: 2rem;
   color: #fff;
   text-align: center;
 }
@@ -51,8 +50,22 @@ html main {
   .banner-description p {
     font-size: 1.4rem;
   }
+  .banner-description-pages h2 {
+    font-size: 2rem;
+  }
+  .banner-description-pages p {
+    font-size: 1.4rem;
+  }
   .efecto-drop:hover {
     background: #9088fff6;
+  }
+  .image-texto {
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  .parrafodescription {
+    margin-top: 10px;
+    font-size: 1.2rem;
   }
   .tarjetas {
     display: -webkit-box;
@@ -72,6 +85,12 @@ html main {
     width: 70px;
     height: 45px;
   }
+  .tarjetas .parrafo-cards {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 4px;
+    color: gray;
+  }
   .tarjetas-term {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -89,6 +108,15 @@ html main {
   .tarjetas-term .image-card-term {
     width: 70px;
     height: 45px;
+  }
+  .visitanos {
+    font-size: 1.2rem;
+  }
+  .formulario-titulo {
+    font-size: 1.8rem;
+  }
+  .formulario-input {
+    font-size: 1.2rem;
   }
   .whatsapp {
     position: fixed;
@@ -127,15 +155,17 @@ html main {
             flex-direction: column;
     padding: 1px 0px 0px 10px;
   }
-  .font-color {
+  .font-pie {
     font-size: 1rem;
-    color: #fff;
   }
   .separacion-links {
     padding: 1px 0px;
   }
   .titulopaginas {
     font-size: 1.6rem;
+  }
+  .titulo-estilos {
+    font-size: 1.2rem;
   }
 }
 
@@ -149,11 +179,23 @@ html main {
   .banner-description p {
     font-size: 2rem;
   }
+  .banner-description-pages h2 {
+    font-size: 2.5rem;
+  }
+  .banner-description-pages p {
+    font-size: 2rem;
+  }
   .titulopaginas {
     font-size: 1.8rem;
   }
   .efecto-drop:hover {
     background: #9088fff6;
+  }
+  .image-texto {
+    font-size: 1.4rem;
+  }
+  .parrafodescription {
+    font-size: 1.4rem;
   }
   .tarjetas {
     display: -webkit-box;
@@ -172,6 +214,12 @@ html main {
     width: 90px;
     height: 60px;
   }
+  .tarjetas .parrafo-cards {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 6px;
+    color: gray;
+  }
   .tarjetas-term {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -188,6 +236,15 @@ html main {
   .tarjetas-term .image-card-term {
     width: 90px;
     height: 60px;
+  }
+  .visitanos {
+    font-size: 1.4rem;
+  }
+  .formulario-titulo {
+    font-size: 2.2rem;
+  }
+  .formulario-input {
+    font-size: 1.4rem;
   }
   .whatsapp {
     position: fixed;
@@ -226,14 +283,16 @@ html main {
             flex-direction: column;
     padding: 20px 0px 0px 20px;
   }
-  .font-color {
+  .font-pie {
     font-size: 1.4rem;
-    color: #fff;
   }
   .separacion-links {
     padding: 20px 0px;
   }
   .titulopaginas {
+    font-size: 2rem;
+  }
+  .titulo-estilos {
     font-size: 2rem;
   }
 }
@@ -254,6 +313,15 @@ html main {
   .banner-description p {
     font-size: 2.2rem;
   }
+  .banner-description-pages h2 {
+    font-size: 2.8rem;
+  }
+  .banner-description-pages p {
+    font-size: 2.2rem;
+  }
+  .image-texto {
+    font-size: 1.6rem;
+  }
   .padre-imagenes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -269,6 +337,9 @@ html main {
   .padre-imagenes .separacion {
     margin: 20px;
   }
+  .parrafodescription {
+    font-size: 1.6rem;
+  }
   .tarjetas {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -281,6 +352,12 @@ html main {
   .tarjetas .card-perfil {
     margin: 0 auto;
   }
+  .tarjetas .parrafo-cards {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 8px;
+    color: gray;
+  }
   .tarjetas-term {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -292,6 +369,15 @@ html main {
   }
   .tarjetas-term .card-perfil-term {
     margin: 0 auto;
+  }
+  .formulario-titulo {
+    font-size: 2.8rem;
+  }
+  .formulario-input {
+    font-size: 1.4rem;
+  }
+  .visitanos {
+    font-size: 1.6rem;
   }
   .logos {
     display: -webkit-box;
@@ -323,6 +409,9 @@ html main {
   .formulario {
     padding: 4rem 1rem;
   }
+  .formulario-titulo {
+    font-size: 2.5rem;
+  }
   .pie-links {
     font-size: 2rem;
     display: -webkit-box;
@@ -334,14 +423,16 @@ html main {
             flex-direction: column;
     padding: 20px 0px 0px 20px;
   }
-  .font-color {
+  .font-pie {
     font-size: 1.4rem;
-    color: #fff;
   }
   .separacion-links {
     padding: 20px 0px;
   }
   .titulopaginas {
+    font-size: 2.2rem;
+  }
+  .titulo-estilos {
     font-size: 2.2rem;
   }
 }
@@ -362,6 +453,15 @@ html main {
   .banner-description p {
     font-size: 2.5rem;
   }
+  .banner-description-pages h2 {
+    font-size: 3.0rem;
+  }
+  .banner-description-pages p {
+    font-size: 2.5rem;
+  }
+  .image-texto {
+    font-size: 1.8rem;
+  }
   .padre-imagenes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -373,6 +473,9 @@ html main {
   }
   .padre-imagenes .hijos-imagenes {
     margin: 0 auto;
+  }
+  .parrafodescription {
+    font-size: 1.8rem;
   }
   .tarjetas {
     display: -webkit-box;
@@ -386,7 +489,13 @@ html main {
   .tarjetas .card-perfil {
     margin: 0 auto;
   }
-  .tarjetas .logos {
+  .tarjetas .parrafo-cards {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 8px;
+    color: gray;
+  }
+  .logos {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -404,6 +513,15 @@ html main {
   }
   .tarjetas-term .card-perfil-term {
     margin: 0 auto;
+  }
+  .formulario-titulo {
+    font-size: 3rem;
+  }
+  .formulario-input {
+    font-size: 1.6rem;
+  }
+  .visitanos {
+    font-size: 1.8rem;
   }
   .logos {
     display: -webkit-box;
@@ -429,6 +547,9 @@ html main {
   .titulopaginas {
     font-size: 3rem;
   }
+  .titulo-estilos {
+    font-size: 3rem;
+  }
   .pie-links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -437,9 +558,8 @@ html main {
         justify-content: space-around;
     padding-top: 20px;
   }
-  .font-color {
+  .font-pie {
     font-size: 1.6rem;
-    color: #fff;
   }
 }
 
@@ -462,6 +582,15 @@ html main {
   .banner-description p {
     font-size: 2.8rem;
   }
+  .banner-description-pages h2 {
+    font-size: 3.2rem;
+  }
+  .banner-description-pages p {
+    font-size: 2.8rem;
+  }
+  .image-texto {
+    font-size: 2rem;
+  }
   .padre-imagenes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -479,6 +608,15 @@ html main {
   }
   .padre-imagenes .separacion {
     margin: 100px;
+  }
+  .parrafodescription {
+    font-size: 2rem;
+  }
+  .formulario-titulo {
+    font-size: 3.8rem;
+  }
+  .formulario-input {
+    font-size: 1.6rem;
   }
   .logos {
     display: -webkit-box;
@@ -528,6 +666,7 @@ html main {
     gap: 10px;
   }
   .tarjetas .parrafo-cards {
+    font-size: 2rem;
     text-align: center;
     padding: 10px;
     color: gray;
@@ -573,9 +712,16 @@ html main {
     gap: 10px;
   }
   .tarjetas-term .parrafo-cards-term {
+    font-size: 2rem;
     text-align: center;
     padding: 10px;
     color: gray;
+  }
+  .tarjetas-term .enlace-term {
+    font-size: 1.8rem;
+  }
+  .visitanos {
+    font-size: 2rem;
   }
   .whatsapp {
     position: fixed;
@@ -596,7 +742,10 @@ html main {
     transition: all 0.5s;
   }
   .titulopaginas {
-    font-size: 4rem;
+    font-size: 3.4rem;
+  }
+  .titulo-estilos {
+    font-size: 3.4rem;
   }
   .pie-links {
     display: -webkit-box;
@@ -606,9 +755,8 @@ html main {
         justify-content: space-around;
     padding-top: 20px;
   }
-  .font-color {
+  .font-pie {
     font-size: 1.6rem;
-    color: #fff;
   }
 }
 
@@ -654,7 +802,7 @@ header .fondo {
   background: center fixed url("../src/img/carouselhogar.jpg");
 }
 
-.pagina .banner-description {
+.pagina .banner .banner-description {
   background-color: rgba(0, 0, 0, 0.6);
   width: 90%;
   max-width: 1000px;
@@ -682,8 +830,8 @@ header .fondo {
 
 .pagina .image-texto {
   color: #fff;
-  font-size: 2rem;
   font-style: oblique;
+  text-align: center;
 }
 
 .pagina .imagenes {
@@ -718,6 +866,8 @@ header .fondo {
 
 .pagina .tarjetas .card-perfil:hover {
   border: solid #4740b3 2px;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 .pagina .tarjetas .image-card {
@@ -738,7 +888,6 @@ header .fondo {
 }
 
 .pagina .contactar-section .visitanos {
-  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   padding-top: 40px;
   text-align: center;
@@ -804,12 +953,10 @@ header .fondo {
 .pagina .contactar-section .formulario-titulo {
   color: #4740b3;
   text-align: center;
-  font-size: 4rem;
   margin-bottom: 10px;
 }
 
 .pagina .contactar-section .formulario-input {
-  font-size: 16px;
   padding: 10px 16px;
   outline: none;
   border: none;
@@ -886,7 +1033,7 @@ header .fondo {
   text-align: left;
 }
 
-.banner-uno .banner-description, .banner-dos .banner-description, .banner-tres .banner-description, .banner-cuatro .banner-description, .banner-cinco .banner-description, .banner-seis .banner-description {
+.banner-uno .banner-description-pages, .banner-dos .banner-description-pages, .banner-tres .banner-description-pages, .banner-cuatro .banner-description-pages, .banner-cinco .banner-description-pages, .banner-seis .banner-description-pages {
   background-color: rgba(0, 0, 0, 0.6);
   width: 90%;
   max-width: 1000px;
@@ -894,13 +1041,13 @@ header .fondo {
   margin: auto;
 }
 
-.banner-uno .banner-description h2, .banner-dos .banner-description h2, .banner-tres .banner-description h2, .banner-cuatro .banner-description h2, .banner-cinco .banner-description h2, .banner-seis .banner-description h2 {
+.banner-uno .banner-description-pages h2, .banner-dos .banner-description-pages h2, .banner-tres .banner-description-pages h2, .banner-cuatro .banner-description-pages h2, .banner-cinco .banner-description-pages h2, .banner-seis .banner-description-pages h2 {
   font-weight: 600;
   font-size: 36px;
   text-align: center;
 }
 
-.banner-uno .banner-description p, .banner-dos .banner-description p, .banner-tres .banner-description p, .banner-cuatro .banner-description p, .banner-cinco .banner-description p, .banner-seis .banner-description p {
+.banner-uno .banner-description-pages p, .banner-dos .banner-description-pages p, .banner-tres .banner-description-pages p, .banner-cuatro .banner-description-pages p, .banner-cinco .banner-description-pages p, .banner-seis .banner-description-pages p {
   margin: 20px 0;
   font-size: 2rem;
   text-align: center;
@@ -930,8 +1077,7 @@ header .fondo {
   background: center fixed url("../src/img/carouselhogar.jpg");
 }
 
-.titulos {
-  font-size: 4rem;
+.titulo-estilos {
   padding: 10px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.3);
@@ -942,7 +1088,7 @@ header .fondo {
   border: 2px solid rgba(0, 0, 255, 0);
 }
 
-.titulos:hover {
+.titulo-estilos:hover {
   border: 2px solid #4740b3;
 }
 
@@ -990,42 +1136,7 @@ header .fondo {
   text-decoration: none;
 }
 
-.pag-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 0 40px 40px 40px;
-  list-style: none;
-}
-
-.pag-list li {
-  padding: 25px;
-}
-
-.pag-list-corp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 0 40px 40px 40px;
-  list-style: none;
-}
-
-.pag-list-corp li {
-  padding: 25px;
-}
-
 .paginas-secundarias {
-  font-size: 2rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#8c7eb6), to(#7c73fff6));
-  background: linear-gradient(to top, #8c7eb6, #7c73fff6);
   font-family: "Poppins", sans-serif;
   border-bottom: 2px solid #000;
 }

@@ -13,7 +13,7 @@
     align-items: center;
     text-align: left;
     
-    .banner-description {
+    .banner-description-pages {
         background-color: rgba(0, 0, 0, 0.6);
         width: 90%;
         max-width: 1000px;
@@ -21,13 +21,13 @@
         margin: auto;
     }
     
-    .banner-description h2 {
+    .banner-description-pages h2 {
         font-weight: 600;
         font-size: 36px;
         text-align: center;
     }
     
-    .banner-description p {
+    .banner-description-pages p {
       margin: 20px 0;
       font-size: 2rem;
       text-align: center
@@ -58,8 +58,7 @@
     background: center fixed url("../src/img/carouselhogar.jpg");
 }
 
-.titulos {
-    font-size: 4rem;
+.titulo-estilos {
     padding: 10px;
     color: #fff;
     background-color: rgba($color: #fff, $alpha: 0.3);
@@ -117,26 +116,7 @@
     
   }
 
-.pag-list {
-    @include pages (flex, column, 0 40px 40px 40px, none);
-
-    li {
-        padding: 25px;
-    }
-}
-
-.pag-list-corp {
-    @include pages (flex, column, 0 40px 40px 40px, none);
-    
-    li {
-        padding: 25px;
-    }
-}
-
 .paginas-secundarias {
-    font-size: 2rem;
-    background: linear-gradient(to top, rgb(140, 126, 182), #7c73fff6 );
-    
     font-family: $fuente-body;
     border-bottom: 2px solid nth($list: $colores, $n: 1);
 }

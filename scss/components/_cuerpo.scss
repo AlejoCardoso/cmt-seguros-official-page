@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     text-align: left;
-    background: center fixed url("../src/img/carouselhogar.jpg");
+    background: center fixed url("../src/img/empresa2.jpg");
 
     .banner-description {
         background-color: rgba(0, 0, 0, 0.6);
@@ -185,6 +185,7 @@
   
   .logotipo {
     width: 150px;
+    height: 50px;
     background-color: nth($list: $colores, $n: 2);
   }
   
@@ -192,6 +193,12 @@
     width: 100px;
     background-color: nth($list: $colores, $n: 2);
   }
+
+  .logotipo-tres {
+    width: 150px;
+    background-color: nth($list: $colores, $n: 2);
+  }
+
   }
 }
 

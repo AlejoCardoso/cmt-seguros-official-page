@@ -565,7 +565,7 @@ html main {
 
 @media screen and (min-width: 1024px) {
   .efecto-drop {
-    padding-right: 100px;
+    padding-right: 60px;
   }
   .efecto-drop:hover {
     background: #9088fff6;
@@ -776,8 +776,15 @@ header .dropdown:hover .dropdown-menu {
   display: block;
 }
 
+header .efecto {
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
 header .efecto:hover {
-  background: #9088fff6;
+  color: #9088fff6;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 header .fondo {
@@ -799,7 +806,7 @@ header .fondo {
       -ms-flex-align: center;
           align-items: center;
   text-align: left;
-  background: center fixed url("../src/img/carouselhogar.jpg");
+  background: center fixed url("../src/img/empresa2.jpg");
 }
 
 .pagina .banner .banner-description {
@@ -993,11 +1000,17 @@ header .fondo {
 
 .pagina .contactar-section .logotipo {
   width: 150px;
+  height: 50px;
   background-color: #fff;
 }
 
 .pagina .contactar-section .logotipo-dos {
   width: 100px;
+  background-color: #fff;
+}
+
+.pagina .contactar-section .logotipo-tres {
+  width: 150px;
   background-color: #fff;
 }
 
@@ -1054,7 +1067,7 @@ header .fondo {
 }
 
 .banner-uno {
-  background: center fixed url("../src/img/carouselauto.jpg");
+  background: center fixed url("../src/img/maquinaria-agricola.jpg");
 }
 
 .banner-dos {
@@ -1062,11 +1075,11 @@ header .fondo {
 }
 
 .banner-tres {
-  background: center fixed url("../src/img/carouselhogar.jpg");
+  background: center fixed url("../src/img/lugar-trabajo.jpg");
 }
 
 .banner-cuatro {
-  background: center fixed url("../src/img/carouselhogar.jpg");
+  background: center fixed url("../src/img/gente.jpg");
 }
 
 .banner-cinco {
@@ -1083,13 +1096,23 @@ header .fondo {
   background-color: rgba(255, 255, 255, 0.3);
   width: 90%;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 5px;
   text-align: center;
   border: 2px solid rgba(0, 0, 255, 0);
 }
 
 .titulo-estilos:hover {
   border: 2px solid #4740b3;
+}
+
+.info-terminos {
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
 }
 
 .tarjetas-term {
@@ -1134,6 +1157,56 @@ header .fondo {
   padding: 10px 20px;
   color: white;
   text-decoration: none;
+}
+
+.tarjetas-section {
+  margin-top: 20px;
+}
+
+.tarjetas-section .tarjetas-paginas {
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tarjetas-section .imagen-tarjetas {
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.tarjetas-section .parrafo-tarjetas {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+
+.tarjetas-section .tarjetas-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .paginas-secundarias {

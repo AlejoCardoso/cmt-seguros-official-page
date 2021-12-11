@@ -35,7 +35,7 @@
 }
 
 .banner-uno {
-    background: center fixed url("../src/img/carouselauto.jpg");
+    background: center fixed url("../src/img/maquinaria-agricola.jpg");
 }
 
 .banner-dos {
@@ -43,11 +43,11 @@
 }
 
 .banner-tres {
-    background: center fixed url("../src/img/carouselhogar.jpg");
+    background: center fixed url("../src/img/lugar-trabajo.jpg");
 }
 
 .banner-cuatro {
-    background: center fixed url("../src/img/carouselhogar.jpg");
+    background: center fixed url("../src/img/gente.jpg");
 }
 
 .banner-cinco {
@@ -64,7 +64,7 @@
     background-color: rgba($color: #fff, $alpha: 0.3);
     width: 90%;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 5px;
     text-align: center;
 
     border: 2px solid rgba(0, 0, 255, 0);
@@ -72,6 +72,16 @@
     &:hover {
         border: 2px solid #4740b3;
     }
+}
+
+.info-terminos {
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 5px;
+    background: rgba($color: #fff, $alpha: 0.2);
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
 }
 
 .tarjetas-term {
@@ -115,6 +125,41 @@
     }
     
   }
+
+.tarjetas-section {
+    margin-top: 20px;
+
+    .tarjetas-paginas {
+        margin: 0 auto;
+        border-radius: 5px;
+        width: 90%;
+        background-color: rgba($color: #fff, $alpha: 0.2);
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagen-tarjetas {
+        border-radius: 5px;
+        margin: 20px;
+    }
+
+    .parrafo-tarjetas {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+        font-family: $fuente-pie;
+        font-weight: 800;
+    }
+
+    .tarjetas-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .paginas-secundarias {
     font-family: $fuente-body;

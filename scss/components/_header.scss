@@ -17,8 +17,13 @@ header {
         display: block;
     }
 
+    .efecto {
+        transition: all 500ms;
+    }
+
     .efecto:hover {
-        background: nth($list: $colores, $n: 7);
+        color: nth($list: $colores, $n: 7);
+        transform: scale(1.1);
     }
 
     .fondo {

@@ -45,16 +45,16 @@ html main {
     display: none;
   }
   .banner-description h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .banner-description p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .banner-description-pages h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .banner-description-pages p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .efecto-drop:hover {
     background: #9088fff6;
@@ -91,6 +91,9 @@ html main {
     padding: 4px;
     color: gray;
   }
+  .info-terminos {
+    font-size: 1.4rem;
+  }
   .tarjetas-term {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -108,6 +111,13 @@ html main {
   .tarjetas-term .image-card-term {
     width: 70px;
     height: 45px;
+  }
+  .tarjetas-term .parrafo-cards-term {
+    font-size: 1.4rem;
+    padding: 4px;
+  }
+  .tarjetas-term .card-button-term {
+    width: 45px;
   }
   .visitanos {
     font-size: 1.2rem;
@@ -167,6 +177,29 @@ html main {
   .titulo-estilos {
     font-size: 1.2rem;
   }
+  .tarjetas-paginas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tarjetas-paginas .imagen-tarjetas {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .tarjetas-paginas .parrafo-tarjetas {
+    font-size: 1.3rem;
+  }
+  .titulos-acordion {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (min-width: 141px) and (max-width: 309px) {
@@ -220,6 +253,9 @@ html main {
     padding: 6px;
     color: gray;
   }
+  .info-terminos {
+    font-size: 1.8rem;
+  }
   .tarjetas-term {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -236,6 +272,13 @@ html main {
   .tarjetas-term .image-card-term {
     width: 90px;
     height: 60px;
+  }
+  .tarjetas-term .card-button-term {
+    width: 45px;
+  }
+  .tarjetas-term .parrafo-cards-term {
+    font-size: 1.6rem;
+    padding: 6px;
   }
   .visitanos {
     font-size: 1.4rem;
@@ -294,6 +337,29 @@ html main {
   }
   .titulo-estilos {
     font-size: 2rem;
+  }
+  .tarjetas-paginas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tarjetas-paginas .imagen-tarjetas {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .tarjetas-paginas .parrafo-tarjetas {
+    font-size: 1.6rem;
+  }
+  .titulos-acordion {
+    font-size: 1.6rem;
   }
 }
 
@@ -358,6 +424,9 @@ html main {
     padding: 8px;
     color: gray;
   }
+  .info-terminos {
+    font-size: 2.0rem;
+  }
   .tarjetas-term {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -369,6 +438,13 @@ html main {
   }
   .tarjetas-term .card-perfil-term {
     margin: 0 auto;
+  }
+  .tarjetas-term .card-button-term {
+    width: 60px;
+  }
+  .tarjetas-term .parrafo-cards-term {
+    font-size: 1.8rem;
+    padding: 8px;
   }
   .formulario-titulo {
     font-size: 2.8rem;
@@ -434,6 +510,30 @@ html main {
   }
   .titulo-estilos {
     font-size: 2.2rem;
+  }
+  .tarjetas-paginas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  .tarjetas-paginas .imagen-tarjetas {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .tarjetas-paginas .parrafo-tarjetas {
+    font-size: 1.8rem;
+  }
+  .titulos-acordion {
+    font-size: 1.8rem;
   }
 }
 
@@ -502,6 +602,9 @@ html main {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .info-terminos {
+    font-size: 2.2rem;
+  }
   .tarjetas-term {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -513,6 +616,13 @@ html main {
   }
   .tarjetas-term .card-perfil-term {
     margin: 0 auto;
+  }
+  .tarjetas-term .parrafo-cards-term {
+    font-size: 2.0rem;
+    padding: 8px;
+  }
+  .tarjetas-term .card-button-term {
+    width: 100px;
   }
   .formulario-titulo {
     font-size: 3rem;
@@ -561,12 +671,33 @@ html main {
   .font-pie {
     font-size: 1.6rem;
   }
+  .tarjetas-paginas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  .tarjetas-paginas .imagen-tarjetas {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .tarjetas-paginas .parrafo-tarjetas {
+    font-size: 2.2rem;
+  }
+  .titulos-acordion {
+    font-size: 2.2rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .efecto-drop {
-    padding-right: 60px;
-  }
   .efecto-drop:hover {
     background: #9088fff6;
   }
@@ -671,6 +802,9 @@ html main {
     padding: 10px;
     color: gray;
   }
+  .info-terminos {
+    font-size: 2.5rem;
+  }
   .tarjetas-term {
     background-color: rgba(255, 255, 255, 0);
     width: 100%;
@@ -712,13 +846,14 @@ html main {
     gap: 10px;
   }
   .tarjetas-term .parrafo-cards-term {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 2.2rem;
     padding: 10px;
-    color: gray;
   }
   .tarjetas-term .enlace-term {
     font-size: 1.8rem;
+  }
+  .tarjetas-term .card-button-term {
+    width: 100px;
   }
   .visitanos {
     font-size: 2rem;
@@ -757,6 +892,17 @@ html main {
   }
   .font-pie {
     font-size: 1.6rem;
+  }
+  .imagen-tarjetas {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .parrafo-tarjetas {
+    font-size: 2.5rem;
+  }
+  .titulos-acordion {
+    font-size: 2.5rem;
   }
 }
 
@@ -806,7 +952,7 @@ header .fondo {
       -ms-flex-align: center;
           align-items: center;
   text-align: left;
-  background: center fixed url("../src/img/empresa2.jpg");
+  background: center fixed url("../src/img/carouselauto.jpg");
 }
 
 .pagina .banner .banner-description {
@@ -912,13 +1058,13 @@ header .fondo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .pagina .contactar-section .mapita:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
-  -webkit-transition: all 1s;
-  transition: all 1s;
 }
 
 .pagina .contactar-section .map-iframe {
@@ -1000,7 +1146,6 @@ header .fondo {
 
 .pagina .contactar-section .logotipo {
   width: 150px;
-  height: 50px;
   background-color: #fff;
 }
 
@@ -1030,8 +1175,9 @@ header .fondo {
   padding: 15px;
 }
 
-.redondeado {
-  border-radius: 15px;
+.paginas-secundarias {
+  font-family: "Poppins", sans-serif;
+  border-bottom: 2px solid #000;
 }
 
 .banner-uno, .banner-dos, .banner-tres, .banner-cuatro, .banner-cinco, .banner-seis {
@@ -1056,13 +1202,11 @@ header .fondo {
 
 .banner-uno .banner-description-pages h2, .banner-dos .banner-description-pages h2, .banner-tres .banner-description-pages h2, .banner-cuatro .banner-description-pages h2, .banner-cinco .banner-description-pages h2, .banner-seis .banner-description-pages h2 {
   font-weight: 600;
-  font-size: 36px;
   text-align: center;
 }
 
 .banner-uno .banner-description-pages p, .banner-dos .banner-description-pages p, .banner-tres .banner-description-pages p, .banner-cuatro .banner-description-pages p, .banner-cinco .banner-description-pages p, .banner-seis .banner-description-pages p {
   margin: 20px 0;
-  font-size: 2rem;
   text-align: center;
 }
 
@@ -1071,7 +1215,7 @@ header .fondo {
 }
 
 .banner-dos {
-  background: center fixed url("../src/img/carouselhogar.jpg");
+  background: center fixed url("../src/img/preguntas.jpg");
 }
 
 .banner-tres {
@@ -1083,11 +1227,11 @@ header .fondo {
 }
 
 .banner-cinco {
-  background: center fixed url("../src/img/carouselhogar.jpg");
+  background: center fixed url("../src/img/sobre.jpg");
 }
 
 .banner-seis {
-  background: center fixed url("../src/img/carouselhogar.jpg");
+  background: center fixed url("../src/img/terminos.jpg");
 }
 
 .titulo-estilos {
@@ -1108,11 +1252,11 @@ header .fondo {
 .info-terminos {
   margin: 0 auto;
   width: 90%;
+  padding: 10px;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.2);
   text-align: center;
   color: #fff;
-  font-size: 2rem;
 }
 
 .tarjetas-term {
@@ -1143,18 +1287,23 @@ header .fondo {
           align-items: center;
 }
 
+.tarjetas-term .parrafo-cards-term {
+  text-align: center;
+  color: gray;
+}
+
 .tarjetas-term .card-button-term {
   margin: 0 auto;
   background-color: #4740b3;
   border: none;
-  width: 100px;
   border-radius: 5px;
 }
 
 .tarjetas-term .card-button-term .enlace-term {
   display: block;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px;
+  text-align: center;
   color: white;
   text-decoration: none;
 }
@@ -1176,11 +1325,6 @@ header .fondo {
           justify-content: center;
 }
 
-.tarjetas-section .imagen-tarjetas {
-  border-radius: 5px;
-  margin: 20px;
-}
-
 .tarjetas-section .parrafo-tarjetas {
   margin: 10px;
   display: -webkit-box;
@@ -1193,10 +1337,10 @@ header .fondo {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  font-size: 2rem;
   color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 800;
+  word-spacing: 3px;
 }
 
 .tarjetas-section .tarjetas-info {
@@ -1209,8 +1353,13 @@ header .fondo {
           flex-direction: column;
 }
 
-.paginas-secundarias {
-  font-family: "Poppins", sans-serif;
-  border-bottom: 2px solid #000;
+.acordion-principal {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.acordion-principal .titulos-acordion {
+  color: #4740b3;
 }
 /*# sourceMappingURL=style.css.map */

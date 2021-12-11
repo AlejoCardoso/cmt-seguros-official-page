@@ -5,19 +5,19 @@
     }
 
     .banner-description h2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .banner-description p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .banner-description-pages h2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .banner-description-pages p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .efecto-drop:hover {
@@ -57,6 +57,10 @@
             }
     }
 
+    .info-terminos {
+        font-size: 1.4rem;
+    }
+
     .tarjetas-term {
         display: flex;
         flex-direction: column;
@@ -70,6 +74,15 @@
         .image-card-term {
             width: 70px;
             height: 45px
+        }
+
+        .parrafo-cards-term {
+            font-size: 1.4rem;
+            padding: 4px;
+        }
+
+        .card-button-term {
+            width: 45px;
         }
     }
 
@@ -126,6 +139,26 @@
 
     .titulo-estilos {
         font-size: 1.2rem;
+    }
+
+    .tarjetas-paginas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .imagen-tarjetas {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 10px;
+        }
+
+        .parrafo-tarjetas {
+            font-size: 1.3rem;
+        }
+    }
+
+    .titulos-acordion {
+        font-size: 1.3rem;
     }
 }
 
@@ -189,6 +222,10 @@
             }
     }
 
+    .info-terminos {
+        font-size: 1.8rem;
+    }
+
     .tarjetas-term {
         display: flex;
         flex-direction: column;
@@ -201,6 +238,15 @@
         .image-card-term {
             width: 90px;
             height: 60px
+        }
+
+        .card-button-term {
+            width: 45px;
+        }
+
+        .parrafo-cards-term {
+            font-size: 1.6rem;
+            padding: 6px;
         }
     }
 
@@ -257,6 +303,26 @@
 
     .titulo-estilos {
         font-size: 2rem;
+    }
+
+    .tarjetas-paginas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .imagen-tarjetas {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 10px;
+        }
+
+        .parrafo-tarjetas {
+            font-size: 1.6rem;
+        }
+    }
+
+    .titulos-acordion {
+        font-size: 1.6rem;
     }
 }
 
@@ -325,12 +391,25 @@
             }
     }
 
+    .info-terminos {
+        font-size: 2.0rem;
+    }
+
     .tarjetas-term {
         display: flex;
         flex-direction: column;
         
         .card-perfil-term {
             margin: 0 auto;
+        }
+
+        .card-button-term {
+            width: 60px;
+        }
+
+        .parrafo-cards-term {
+            font-size: 1.8rem;
+            padding: 8px;
         }
     }
 
@@ -397,7 +476,29 @@
     .titulo-estilos {
         font-size: 2.2rem;
     }
-}
+
+    .tarjetas-paginas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+
+        .imagen-tarjetas {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 10px;
+        }
+
+        .parrafo-tarjetas {
+            font-size: 1.8rem;
+        }
+    }
+
+        .titulos-acordion {
+            font-size: 1.8rem;
+        }
+    }
+
 
 // tablet 
 @media screen and (min-width:481px) and (max-width:1023px) {
@@ -460,8 +561,12 @@
             }
     }
     .logos {
-            display: flex;
-            justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
+        }
+
+    .info-terminos {
+        font-size: 2.2rem;
         }
 
     .tarjetas-term {
@@ -470,6 +575,15 @@
         
         .card-perfil-term {
             margin: 0 auto;
+        }
+
+        .parrafo-cards-term {
+            font-size: 2.0rem;
+            padding: 8px;
+        }
+
+        .card-button-term {
+            width: 100px;
         }
     }
 
@@ -518,14 +632,33 @@
     .font-pie {
             font-size: 1.6rem;
         }
+
+        .tarjetas-paginas {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+    
+            .imagen-tarjetas {
+                width: 50%;
+                margin: 0 auto;
+                padding-top: 10px
+            }
+
+            .parrafo-tarjetas {
+                font-size: 2.2rem;
+            }
+        }
+
+        .titulos-acordion {
+            font-size: 2.2rem;
+        }
     }
 
 // desktop
 
 @media screen and (min-width: 1024px) {
     .efecto-drop {
-        padding-right: 60px;
-
         &:hover {
             background: nth($list: $colores, $n: 7);
         }
@@ -626,6 +759,10 @@
         }
       }
 
+      .info-terminos {
+          font-size: 2.5rem;
+      }
+
       .tarjetas-term {
         background-color: rgba(255, 255, 255, 0);
         width: 100%;
@@ -658,14 +795,16 @@
         }
       
         .parrafo-cards-term {
-        font-size: 2rem;
-          text-align: center;
-          padding: 10px;
-          color: gray;
+            font-size: 2.2rem;
+            padding: 10px;
         }
 
         .enlace-term {
             font-size: 1.8rem;
+        }
+
+        .card-button-term {
+            width: 100px;
         }
       }
     
@@ -703,5 +842,19 @@
 
     .font-pie {
         font-size: 1.6rem;
+    }
+
+    .imagen-tarjetas {
+            width: 40%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+    .parrafo-tarjetas {
+        font-size: 2.5rem;
+    }
+
+    .titulos-acordion {
+        font-size: 2.5rem;
     }
 }

@@ -2,8 +2,9 @@
 @import '../base/maps';
 @import '../base/mixin';
 
-.redondeado {
-    border-radius: 15px;
+.paginas-secundarias {
+    font-family: $fuente-body;
+    border-bottom: 2px solid nth($list: $colores, $n: 1);
 }
 
 .banner-uno, .banner-dos, .banner-tres, .banner-cuatro, .banner-cinco, .banner-seis {
@@ -23,13 +24,11 @@
     
     .banner-description-pages h2 {
         font-weight: 600;
-        font-size: 36px;
         text-align: center;
     }
     
     .banner-description-pages p {
       margin: 20px 0;
-      font-size: 2rem;
       text-align: center
     }
 }
@@ -39,7 +38,7 @@
 }
 
 .banner-dos {
-    background: center fixed url("../src/img/carouselhogar.jpg");
+    background: center fixed url("../src/img/preguntas.jpg");
 }
 
 .banner-tres {
@@ -51,11 +50,11 @@
 }
 
 .banner-cinco {
-    background: center fixed url("../src/img/carouselhogar.jpg");
+    background: center fixed url("../src/img/sobre.jpg");
 }
 
 .banner-seis {
-    background: center fixed url("../src/img/carouselhogar.jpg");
+    background: center fixed url("../src/img/terminos.jpg");
 }
 
 .titulo-estilos {
@@ -77,11 +76,11 @@
 .info-terminos {
     margin: 0 auto;
     width: 90%;
+    padding: 10px;
     border-radius: 5px;
     background: rgba($color: #fff, $alpha: 0.2);
     text-align: center;
     color: #fff;
-    font-size: 2rem;
 }
 
 .tarjetas-term {
@@ -108,17 +107,22 @@
       align-items: center;
     }
 
+    .parrafo-cards-term {
+          text-align: center;
+          color: gray;
+        }
+
     .card-button-term {
         margin: 0 auto;
         background-color: #4740b3;
         border: none;
-        width: 100px;
         border-radius: 5px;
 
         .enlace-term {
             display: block;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 10px;
+            text-align: center;
             color: white;
             text-decoration: none;
         }
@@ -138,30 +142,31 @@
         justify-content: center;
     }
 
-    .imagen-tarjetas {
-        border-radius: 5px;
-        margin: 20px;
-    }
-
     .parrafo-tarjetas {
         margin: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 2rem;
         color: #fff;
         font-family: $fuente-pie;
         font-weight: 800;
+        word-spacing: 3px;
     }
 
     .tarjetas-info {
         display: flex;
         flex-direction: column;
     }
+
 }
 
-.paginas-secundarias {
-    font-family: $fuente-body;
-    border-bottom: 2px solid nth($list: $colores, $n: 1);
+.acordion-principal {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .titulos-acordion {
+        color: #4740b3;
+    }
 }

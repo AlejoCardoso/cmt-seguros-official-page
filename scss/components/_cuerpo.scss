@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     text-align: left;
-    background: center fixed url("../src/img/empresa2.jpg");
+    background: center fixed url("../src/img/carouselauto.jpg");
 
     .banner-description {
         background-color: rgba(0, 0, 0, 0.6);
@@ -108,10 +108,10 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      transition: all 1s;
 
       &:hover {
         transform: scale(0.95);
-        transition: all 1s;
       }
     }
 
@@ -185,7 +185,6 @@
   
   .logotipo {
     width: 150px;
-    height: 50px;
     background-color: nth($list: $colores, $n: 2);
   }
   

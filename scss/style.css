@@ -1155,6 +1155,10 @@ header .fondo {
   font-weight: 400;
 }
 
+.pagina .contactar-section .formulario-cta:hover {
+  background-color: rgba(71, 64, 179, 0.7);
+}
+
 .pagina .contactar-section .logotipo {
   width: 150px;
   background-color: #fff;

@@ -57,7 +57,7 @@ html main {
     font-size: 1.2rem;
   }
   .efecto-drop:hover {
-    background: #9088fff6;
+    background: #7c73fff6;
   }
   .image-texto {
     margin-top: 5px;
@@ -87,9 +87,7 @@ html main {
   }
   .tarjetas .parrafo-cards {
     font-size: 1.2rem;
-    text-align: center;
     padding: 4px;
-    color: gray;
   }
   .info-terminos {
     font-size: 1.4rem;
@@ -200,6 +198,9 @@ html main {
   .titulos-acordion {
     font-size: 1.3rem;
   }
+  .acordion-parrafo {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 141px) and (max-width: 309px) {
@@ -222,7 +223,7 @@ html main {
     font-size: 1.8rem;
   }
   .efecto-drop:hover {
-    background: #9088fff6;
+    background: #7c73fff6;
   }
   .image-texto {
     font-size: 1.4rem;
@@ -249,9 +250,7 @@ html main {
   }
   .tarjetas .parrafo-cards {
     font-size: 1.4rem;
-    text-align: center;
     padding: 6px;
-    color: gray;
   }
   .info-terminos {
     font-size: 1.8rem;
@@ -361,11 +360,14 @@ html main {
   .titulos-acordion {
     font-size: 1.6rem;
   }
+  .acordion-parrafo {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 310px) and (max-width: 480px) {
   .efecto-drop:hover {
-    background: #9088fff6;
+    background: #7c73fff6;
   }
   .parrafo {
     font-variant: small-caps;
@@ -420,9 +422,7 @@ html main {
   }
   .tarjetas .parrafo-cards {
     font-size: 1.6rem;
-    text-align: center;
     padding: 8px;
-    color: gray;
   }
   .info-terminos {
     font-size: 2.0rem;
@@ -535,11 +535,14 @@ html main {
   .titulos-acordion {
     font-size: 1.8rem;
   }
+  .acordion-parrafo {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 1023px) {
   .efecto-drop:hover {
-    background: #9088fff6;
+    background: #7c73fff6;
   }
   .parrafo {
     font-variant: small-caps;
@@ -591,9 +594,7 @@ html main {
   }
   .tarjetas .parrafo-cards {
     font-size: 1.8rem;
-    text-align: center;
     padding: 8px;
-    color: gray;
   }
   .logos {
     display: -webkit-box;
@@ -695,11 +696,14 @@ html main {
   .titulos-acordion {
     font-size: 2.2rem;
   }
+  .acordion-parrafo {
+    font-size: 2.0rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .efecto-drop:hover {
-    background: #9088fff6;
+    background: #7c73fff6;
   }
   .parrafo {
     font-variant: small-caps;
@@ -798,9 +802,7 @@ html main {
   }
   .tarjetas .parrafo-cards {
     font-size: 2rem;
-    text-align: center;
     padding: 10px;
-    color: gray;
   }
   .info-terminos {
     font-size: 2.5rem;
@@ -904,6 +906,10 @@ html main {
   .titulos-acordion {
     font-size: 2.5rem;
   }
+  .acordion-parrafo {
+    font-size: 2.2rem;
+    padding: 20px;
+  }
 }
 
 header {
@@ -928,13 +934,13 @@ header .efecto {
 }
 
 header .efecto:hover {
-  color: #9088fff6;
+  color: #a495d1;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
 header .fondo {
-  background-color: #8c7eb6;
+  background-color: #a495d1;
 }
 
 .pagina {
@@ -1033,6 +1039,11 @@ header .fondo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.pagina .tarjetas .parrafo-cards {
+  color: gray;
+  text-align: center;
 }
 
 .pagina .contactar-section {
@@ -1304,7 +1315,7 @@ header .fondo {
   text-decoration: none;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 

@@ -51,9 +51,7 @@
 
         .parrafo-cards {
             font-size: 1.2rem;
-              text-align: center;
               padding: 4px;
-              color: gray;
             }
     }
 
@@ -160,6 +158,10 @@
     .titulos-acordion {
         font-size: 1.3rem;
     }
+
+    .acordion-parrafo {
+        font-size: 1.2rem;
+    }
 }
 
 // mobile xs 
@@ -216,10 +218,8 @@
 
         .parrafo-cards {
             font-size: 1.4rem;
-              text-align: center;
-              padding: 6px;
-              color: gray;
-            }
+            padding: 6px;
+        }
     }
 
     .info-terminos {
@@ -324,6 +324,10 @@
     .titulos-acordion {
         font-size: 1.6rem;
     }
+
+    .acordion-parrafo {
+        font-size: 1.4rem;
+    }
 }
 
 // mobile
@@ -385,10 +389,8 @@
 
         .parrafo-cards {
             font-size: 1.6rem;
-              text-align: center;
-              padding: 8px;
-              color: gray;
-            }
+            padding: 8px;
+        }
     }
 
     .info-terminos {
@@ -497,6 +499,10 @@
         .titulos-acordion {
             font-size: 1.8rem;
         }
+
+        .acordion-parrafo {
+            font-size: 1.6rem;
+        }
     }
 
 
@@ -555,10 +561,8 @@
         
         .parrafo-cards {
             font-size: 1.8rem;
-              text-align: center;
               padding: 8px;
-              color: gray;
-            }
+        }
     }
     .logos {
         display: flex;
@@ -653,6 +657,10 @@
         .titulos-acordion {
             font-size: 2.2rem;
         }
+
+        .acordion-parrafo {
+            font-size: 2.0rem;
+        }
     }
 
 // desktop
@@ -738,24 +746,22 @@
         }
       
         .image-card {
-          width: 200px;
-          height: 100px;
-          box-shadow: 2px 2px 5px rgb(184, 180, 180);
-          border: 1px solid rgba(0, 0, 0, 0.1);
+            width: 200px;
+            height: 100px;
+            box-shadow: 2px 2px 5px rgb(184, 180, 180);
+            border: 1px solid rgba(0, 0, 0, 0.1);
         }
       
         .card-nombre {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
         }
       
         .parrafo-cards {
-        font-size: 2rem;
-          text-align: center;
-          padding: 10px;
-          color: gray;
+            font-size: 2rem;
+            padding: 10px;
         }
       }
 
@@ -856,5 +862,10 @@
 
     .titulos-acordion {
         font-size: 2.5rem;
+    }
+
+    .acordion-parrafo {
+        font-size: 2.2rem;
+        padding: 20px;
     }
 }

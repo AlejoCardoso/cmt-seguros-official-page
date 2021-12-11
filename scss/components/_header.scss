@@ -22,11 +22,11 @@ header {
     }
 
     .efecto:hover {
-        color: nth($list: $colores, $n: 7);
+        color: nth($list: $colores, $n: 4);
         transform: scale(1.1);
     }
 
     .fondo {
-        background-color: nth($list: $colores, $n: 8);
+        background-color: nth($list: $colores, $n: 4);
     }
 }

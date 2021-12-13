@@ -30,7 +30,7 @@ html h2 {
   color: #fff;
 }
 
-html .parrafodescription {
+html .parrafo-description {
   color: #fff;
   text-align: center;
 }
@@ -63,7 +63,7 @@ html main {
     margin-top: 5px;
     font-size: 1.2rem;
   }
-  .parrafodescription {
+  .parrafo-description {
     margin-top: 10px;
     font-size: 1.2rem;
   }
@@ -126,6 +126,9 @@ html main {
   .formulario-input {
     font-size: 1.2rem;
   }
+  .formulario-cta {
+    font-size: 1.4rem;
+  }
   .whatsapp {
     position: fixed;
     width: 40px;
@@ -169,7 +172,7 @@ html main {
   .separacion-links {
     padding: 1px 0px;
   }
-  .titulopaginas {
+  .titulo-pagina {
     font-size: 1.6rem;
   }
   .titulo-estilos {
@@ -219,7 +222,7 @@ html main {
   .banner-description-pages p {
     font-size: 2rem;
   }
-  .titulopaginas {
+  .titulo-pagina {
     font-size: 1.8rem;
   }
   .efecto-drop:hover {
@@ -228,7 +231,7 @@ html main {
   .image-texto {
     font-size: 1.4rem;
   }
-  .parrafodescription {
+  .parrafo-description {
     font-size: 1.4rem;
   }
   .tarjetas {
@@ -288,6 +291,9 @@ html main {
   .formulario-input {
     font-size: 1.4rem;
   }
+  .formulario-cta {
+    font-size: 1.5rem;
+  }
   .whatsapp {
     position: fixed;
     width: 40px;
@@ -331,7 +337,7 @@ html main {
   .separacion-links {
     padding: 20px 0px;
   }
-  .titulopaginas {
+  .titulo-pagina {
     font-size: 2rem;
   }
   .titulo-estilos {
@@ -403,9 +409,9 @@ html main {
     margin: 0 auto;
   }
   .padre-imagenes .separacion {
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
   }
-  .parrafodescription {
+  .parrafo-description {
     font-size: 1.6rem;
   }
   .tarjetas {
@@ -425,7 +431,7 @@ html main {
     padding: 8px;
   }
   .info-terminos {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
   .tarjetas-term {
     display: -webkit-box;
@@ -445,12 +451,6 @@ html main {
   .tarjetas-term .parrafo-cards-term {
     font-size: 1.8rem;
     padding: 8px;
-  }
-  .formulario-titulo {
-    font-size: 2.8rem;
-  }
-  .formulario-input {
-    font-size: 1.4rem;
   }
   .visitanos {
     font-size: 1.6rem;
@@ -488,6 +488,12 @@ html main {
   .formulario-titulo {
     font-size: 2.5rem;
   }
+  .formulario-input {
+    font-size: 1.4rem;
+  }
+  .formulario-cta {
+    font-size: 1.6rem;
+  }
   .pie-links {
     font-size: 2rem;
     display: -webkit-box;
@@ -505,7 +511,7 @@ html main {
   .separacion-links {
     padding: 20px 0px;
   }
-  .titulopaginas {
+  .titulo-pagina {
     font-size: 2.2rem;
   }
   .titulo-estilos {
@@ -551,13 +557,13 @@ html main {
     font-family: "Roboto Slab", serif;
   }
   .banner-description h2 {
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
   .banner-description p {
     font-size: 2.5rem;
   }
   .banner-description-pages h2 {
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
   .banner-description-pages p {
     font-size: 2.5rem;
@@ -577,7 +583,7 @@ html main {
   .padre-imagenes .hijos-imagenes {
     margin: 0 auto;
   }
-  .parrafodescription {
+  .parrafo-description {
     font-size: 1.8rem;
   }
   .tarjetas {
@@ -619,7 +625,7 @@ html main {
     margin: 0 auto;
   }
   .tarjetas-term .parrafo-cards-term {
-    font-size: 2.0rem;
+    font-size: 2rem;
     padding: 8px;
   }
   .tarjetas-term .card-button-term {
@@ -631,15 +637,11 @@ html main {
   .formulario-input {
     font-size: 1.6rem;
   }
-  .visitanos {
+  .formulario-cta {
     font-size: 1.8rem;
   }
-  .logos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .visitanos {
+    font-size: 1.8rem;
   }
   .whatsapp {
     position: fixed;
@@ -655,7 +657,7 @@ html main {
     color: #20c555;
     background: #fff;
   }
-  .titulopaginas {
+  .titulo-pagina {
     font-size: 3rem;
   }
   .titulo-estilos {
@@ -697,13 +699,21 @@ html main {
     font-size: 2.2rem;
   }
   .acordion-parrafo {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .efecto-drop:hover {
     background: #7c73fff6;
+  }
+  .efecto {
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+  }
+  .efecto:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
   .parrafo {
     font-variant: small-caps;
@@ -744,7 +754,7 @@ html main {
   .padre-imagenes .separacion {
     margin: 100px;
   }
-  .parrafodescription {
+  .parrafo-description {
     font-size: 2rem;
   }
   .formulario-titulo {
@@ -752,6 +762,9 @@ html main {
   }
   .formulario-input {
     font-size: 1.6rem;
+  }
+  .formulario-cta {
+    font-size: 2rem;
   }
   .logos {
     display: -webkit-box;
@@ -878,7 +891,7 @@ html main {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
-  .titulopaginas {
+  .titulo-pagina {
     font-size: 3.4rem;
   }
   .titulo-estilos {
@@ -926,17 +939,6 @@ header .tamaño-fuente {
 
 header .dropdown:hover .dropdown-menu {
   display: block;
-}
-
-header .efecto {
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
-}
-
-header .efecto:hover {
-  color: #a495d1;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 header .fondo {
@@ -1004,7 +1006,7 @@ header .fondo {
           filter: brightness(60%);
 }
 
-.pagina .titulopaginas {
+.pagina .titulo-pagina {
   color: #fff;
   text-align: center;
   font-family: "Roboto Slab", serif;
@@ -1195,7 +1197,7 @@ header .fondo {
   border-bottom: 2px solid #000;
 }
 
-.banner-uno, .banner-dos, .banner-tres, .banner-cuatro, .banner-cinco, .banner-seis {
+.paginas-secundarias .banner-uno, .paginas-secundarias .banner-dos, .paginas-secundarias .banner-tres, .paginas-secundarias .banner-cuatro, .paginas-secundarias .banner-cinco, .paginas-secundarias .banner-seis {
   width: 100%;
   height: 700px;
   display: -webkit-box;
@@ -1207,7 +1209,7 @@ header .fondo {
   text-align: left;
 }
 
-.banner-uno .banner-description-pages, .banner-dos .banner-description-pages, .banner-tres .banner-description-pages, .banner-cuatro .banner-description-pages, .banner-cinco .banner-description-pages, .banner-seis .banner-description-pages {
+.paginas-secundarias .banner-uno .banner-description-pages, .paginas-secundarias .banner-dos .banner-description-pages, .paginas-secundarias .banner-tres .banner-description-pages, .paginas-secundarias .banner-cuatro .banner-description-pages, .paginas-secundarias .banner-cinco .banner-description-pages, .paginas-secundarias .banner-seis .banner-description-pages {
   background-color: rgba(0, 0, 0, 0.6);
   width: 90%;
   max-width: 1000px;
@@ -1215,41 +1217,41 @@ header .fondo {
   margin: auto;
 }
 
-.banner-uno .banner-description-pages h2, .banner-dos .banner-description-pages h2, .banner-tres .banner-description-pages h2, .banner-cuatro .banner-description-pages h2, .banner-cinco .banner-description-pages h2, .banner-seis .banner-description-pages h2 {
+.paginas-secundarias .banner-uno .banner-description-pages h2, .paginas-secundarias .banner-dos .banner-description-pages h2, .paginas-secundarias .banner-tres .banner-description-pages h2, .paginas-secundarias .banner-cuatro .banner-description-pages h2, .paginas-secundarias .banner-cinco .banner-description-pages h2, .paginas-secundarias .banner-seis .banner-description-pages h2 {
   font-weight: 600;
   text-align: center;
 }
 
-.banner-uno .banner-description-pages p, .banner-dos .banner-description-pages p, .banner-tres .banner-description-pages p, .banner-cuatro .banner-description-pages p, .banner-cinco .banner-description-pages p, .banner-seis .banner-description-pages p {
+.paginas-secundarias .banner-uno .banner-description-pages p, .paginas-secundarias .banner-dos .banner-description-pages p, .paginas-secundarias .banner-tres .banner-description-pages p, .paginas-secundarias .banner-cuatro .banner-description-pages p, .paginas-secundarias .banner-cinco .banner-description-pages p, .paginas-secundarias .banner-seis .banner-description-pages p {
   margin: 20px 0;
   text-align: center;
 }
 
-.banner-uno {
+.paginas-secundarias .banner-uno {
   background: center fixed url("../src/img/maquinaria-agricola.jpg");
 }
 
-.banner-dos {
+.paginas-secundarias .banner-dos {
   background: center fixed url("../src/img/preguntas.jpg");
 }
 
-.banner-tres {
+.paginas-secundarias .banner-tres {
   background: center fixed url("../src/img/lugar-trabajo.jpg");
 }
 
-.banner-cuatro {
+.paginas-secundarias .banner-cuatro {
   background: center fixed url("../src/img/gente.jpg");
 }
 
-.banner-cinco {
+.paginas-secundarias .banner-cinco {
   background: center fixed url("../src/img/sobre.jpg");
 }
 
-.banner-seis {
+.paginas-secundarias .banner-seis {
   background: center fixed url("../src/img/terminos.jpg");
 }
 
-.titulo-estilos {
+.paginas-secundarias .titulo-estilos {
   padding: 10px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.3);
@@ -1260,11 +1262,11 @@ header .fondo {
   border: 2px solid rgba(0, 0, 255, 0);
 }
 
-.titulo-estilos:hover {
+.paginas-secundarias .titulo-estilos:hover {
   border: 2px solid #4740b3;
 }
 
-.info-terminos {
+.paginas-secundarias .info-terminos {
   margin: 0 auto;
   width: 90%;
   padding: 10px;
@@ -1274,11 +1276,11 @@ header .fondo {
   color: #fff;
 }
 
-.tarjetas-term {
+.paginas-secundarias .tarjetas-term {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.tarjetas-term .card-perfil-term {
+.paginas-secundarias .tarjetas-term .card-perfil-term {
   background-color: #fff;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1286,35 +1288,35 @@ header .fondo {
   border-radius: 10px;
 }
 
-.tarjetas-term .card-perfil-term:hover {
+.paginas-secundarias .tarjetas-term .card-perfil-term:hover {
   border: solid #4740b3 2px;
 }
 
-.tarjetas-term .image-card-term {
+.paginas-secundarias .tarjetas-term .image-card-term {
   -webkit-box-shadow: 2px 2px 5px #b8b4b4;
           box-shadow: 2px 2px 5px #b8b4b4;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.tarjetas-term .card-nombre-term {
+.paginas-secundarias .tarjetas-term .card-nombre-term {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.tarjetas-term .parrafo-cards-term {
+.paginas-secundarias .tarjetas-term .parrafo-cards-term {
   text-align: center;
   color: gray;
 }
 
-.tarjetas-term .card-button-term {
+.paginas-secundarias .tarjetas-term .card-button-term {
   margin: 0 auto;
   background-color: #4740b3;
   border: none;
   border-radius: 5px;
 }
 
-.tarjetas-term .card-button-term .enlace-term {
+.paginas-secundarias .tarjetas-term .card-button-term .enlace-term {
   display: block;
   text-decoration: none;
   padding: 10px;
@@ -1323,11 +1325,11 @@ header .fondo {
   text-decoration: none;
 }
 
-.tarjetas-section {
+.paginas-secundarias .tarjetas-section {
   margin-top: 20px;
 }
 
-.tarjetas-section .tarjetas-paginas {
+.paginas-secundarias .tarjetas-section .tarjetas-paginas {
   margin: 0 auto;
   border-radius: 5px;
   width: 90%;
@@ -1340,7 +1342,7 @@ header .fondo {
           justify-content: center;
 }
 
-.tarjetas-section .parrafo-tarjetas {
+.paginas-secundarias .tarjetas-section .parrafo-tarjetas {
   margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1358,7 +1360,7 @@ header .fondo {
   word-spacing: 3px;
 }
 
-.tarjetas-section .tarjetas-info {
+.paginas-secundarias .tarjetas-section .tarjetas-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1368,13 +1370,13 @@ header .fondo {
           flex-direction: column;
 }
 
-.acordion-principal {
+.paginas-secundarias .acordion-principal {
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-.acordion-principal .titulos-acordion {
+.paginas-secundarias .acordion-principal .titulos-acordion {
   color: #4740b3;
 }
 /*# sourceMappingURL=style.css.map */

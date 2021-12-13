@@ -17,15 +17,6 @@ header {
         display: block;
     }
 
-    .efecto {
-        transition: all 500ms;
-    }
-
-    .efecto:hover {
-        color: nth($list: $colores, $n: 4);
-        transform: scale(1.1);
-    }
-
     .fondo {
         background-color: nth($list: $colores, $n: 4);
     }

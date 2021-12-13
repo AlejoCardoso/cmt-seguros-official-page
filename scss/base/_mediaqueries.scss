@@ -1,871 +1,965 @@
 // xs super
 @media screen and (max-width: 140px) {
-    .parrafo {
-        display: none;
+  // Título CMT Seguros, no se muestra
+  .parrafo {
+    display: none;
+  }
+
+  // Efecto parallax
+  .banner-description h2 {
+    font-size: 1.4rem;
+  }
+
+  .banner-description p {
+    font-size: 1.2rem;
+  }
+
+  .banner-description-pages h2 {
+    font-size: 1.4rem;
+  }
+
+  .banner-description-pages p {
+    font-size: 1.2rem;
+  }
+
+  .efecto-drop:hover {
+    background: nth($list: $colores, $n: 7);
+  }
+
+  .image-texto {
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+
+  // Descripción páginas
+  .parrafo-description {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  // Cards del index
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil {
+      width: 75px;
+      margin: 0 auto;
+      background-color: #fff;
     }
 
-    .banner-description h2 {
-        font-size: 1.4rem;
+    .image-card {
+      width: 70px;
+      height: 45px;
     }
 
-    .banner-description p {
-        font-size: 1.2rem;
+    .parrafo-cards {
+      font-size: 1.2rem;
+      padding: 4px;
+    }
+  }
+
+  // Párrafo explicativo términos y condiciones
+  .info-terminos {
+    font-size: 1.4rem;
+  }
+
+  // Cards de términos y condiciones
+  .tarjetas-term {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil-term {
+      width: 75px;
+      margin: 0 auto;
+      background-color: #fff;
     }
 
-    .banner-description-pages h2 {
-        font-size: 1.4rem;
+    .image-card-term {
+      width: 70px;
+      height: 45px;
     }
 
-    .banner-description-pages p {
-        font-size: 1.2rem;
+    .parrafo-cards-term {
+      font-size: 1.4rem;
+      padding: 4px;
     }
 
-    .efecto-drop:hover {
-        background: nth($list: $colores, $n: 7);
+    .card-button-term {
+      width: 45px;
     }
+  }
 
-    .image-texto {
-        margin-top: 5px;
-        font-size: 1.2rem;
+  // Sección de mapa
+  .visitanos {
+    font-size: 1.2rem;
+  }
+
+  // Formulario
+  .formulario-titulo {
+    font-size: 1.8rem;
+  }
+
+  .formulario-input {
+    font-size: 1.2rem;
+  }
+
+  .formulario-cta {
+    font-size: 1.4rem;
+  }
+
+  // Whatsapp
+  .whatsapp {
+    @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
+    background: nth($list: $colores, $n: 3);
+    color: nth($list: $colores, $n: 2);
+
+    &:hover {
+      color: nth($list: $colores, $n: 3);
+      background: nth($list: $colores, $n: 2);
     }
+  }
 
-    .parrafodescription {
-        margin-top: 10px;
-        font-size: 1.2rem;
-    }
+  // Logos arriba del footer
+  .logos {
+    display: flex;
+    flex-direction: column;
 
-    .tarjetas {
-        display: flex;
-        flex-direction: column;
-
-        .card-perfil {
-            width: 75px;
-            margin: 0 auto;
-            background-color: #fff;
-        }
-    
-        .image-card {
-            width: 70px;
-            height: 45px
-        }
-
-        .parrafo-cards {
-            font-size: 1.2rem;
-              padding: 4px;
-            }
-    }
-
-    .info-terminos {
-        font-size: 1.4rem;
-    }
-
-    .tarjetas-term {
-        display: flex;
-        flex-direction: column;
-        
-        .card-perfil-term {
-            width: 75px;
-            margin: 0 auto;
-            background-color: #fff;
-        }
-    
-        .image-card-term {
-            width: 70px;
-            height: 45px
-        }
-
-        .parrafo-cards-term {
-            font-size: 1.4rem;
-            padding: 4px;
-        }
-
-        .card-button-term {
-            width: 45px;
-        }
-    }
-
-    .visitanos {
-        font-size: 1.2rem;
-    }
-
-    .formulario-titulo {
-        font-size: 1.8rem;
-    }
-
-    .formulario-input {
-        font-size: 1.2rem;
-    }
-
-    .whatsapp {
-        @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
-        background: nth($list: $colores, $n: 3);
-        color: nth($list: $colores, $n: 2);
-
-        &:hover {
-            color: nth($list: $colores, $n: 3);
-            background: nth($list: $colores, $n: 2);
-        }
-    }
-
-    .logos {
-        display: flex;
-        flex-direction: column;
-        
     .logo-uno {
-            margin: 0 auto;
-            padding: 5px;
-        }
+      margin: 0 auto;
+      padding: 5px;
+    }
+  }
+
+  // Footer
+  .pie-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1px 0px 0px 10px;
+  }
+
+  .font-pie {
+    font-size: 1rem;
+  }
+
+  .separacion-links {
+    padding: 1px 0px;
+  }
+
+  // Títulos de páginas
+  .titulo-pagina {
+    font-size: 1.6rem;
+  }
+
+  .titulo-estilos {
+    font-size: 1.2rem;
+  }
+
+  // Cards info páginas
+  .tarjetas-paginas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .imagen-tarjetas {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 10px;
     }
 
-    .pie-links {
-        display: flex;
-        flex-direction: column;
-        padding: 1px 0px 0px 10px; 
+    .parrafo-tarjetas {
+      font-size: 1.3rem;
     }
+  }
 
-    .font-pie {
-        font-size: 1rem;
-    }
+  // Acordión preguntas
+  .titulos-acordion {
+    font-size: 1.3rem;
+  }
 
-    .separacion-links {
-        padding: 1px 0px;
-    }
-
-    .titulopaginas {
-        font-size: 1.6rem;
-    }
-
-    .titulo-estilos {
-        font-size: 1.2rem;
-    }
-
-    .tarjetas-paginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        .imagen-tarjetas {
-            width: 90%;
-            margin: 0 auto;
-            padding-top: 10px;
-        }
-
-        .parrafo-tarjetas {
-            font-size: 1.3rem;
-        }
-    }
-
-    .titulos-acordion {
-        font-size: 1.3rem;
-    }
-
-    .acordion-parrafo {
-        font-size: 1.2rem;
-    }
+  .acordion-parrafo {
+    font-size: 1.2rem;
+  }
 }
 
-// mobile xs 
+// mobile xs
 @media screen and (min-width: 141px) and (max-width: 309px) {
-    .parrafo {
-        font-size: 1.6rem;
+  // Título CMT Seguros
+  .parrafo {
+    font-size: 1.6rem;
+  }
+
+  // Efecto parallax
+  .banner-description h2 {
+    font-size: 2.5rem;
+  }
+
+  .banner-description p {
+    font-size: 2rem;
+  }
+
+  .banner-description-pages h2 {
+    font-size: 2.5rem;
+  }
+
+  .banner-description-pages p {
+    font-size: 2rem;
+  }
+
+  .titulo-pagina {
+    font-size: 1.8rem;
+  }
+
+  .efecto-drop:hover {
+    background: nth($list: $colores, $n: 7);
+  }
+
+  .image-texto {
+    font-size: 1.4rem;
+  }
+
+  // Descripción páginas
+  .parrafo-description {
+    font-size: 1.4rem;
+  }
+
+  // Cards del index
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil {
+      width: 100px;
+      margin: 0 auto;
     }
 
-    .banner-description h2 {
-        font-size: 2.5rem;
+    .image-card {
+      width: 90px;
+      height: 60px;
     }
 
-    .banner-description p {
-        font-size: 2rem;
+    .parrafo-cards {
+      font-size: 1.4rem;
+      padding: 6px;
+    }
+  }
+
+  // Párrafo explicativo términos y condiciones
+  .info-terminos {
+    font-size: 1.8rem;
+  }
+
+  // Cards de términos y condiciones
+  .tarjetas-term {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil-term {
+      width: 100px;
+      margin: 0 auto;
     }
 
-    .banner-description-pages h2 {
-        font-size: 2.5rem;
+    .image-card-term {
+      width: 90px;
+      height: 60px;
     }
 
-    .banner-description-pages p {
-        font-size: 2rem;
+    .card-button-term {
+      width: 45px;
     }
 
-    .titulopaginas {
-        font-size: 1.8rem;
+    .parrafo-cards-term {
+      font-size: 1.6rem;
+      padding: 6px;
     }
+  }
 
-    .efecto-drop:hover {
-        background: nth($list: $colores, $n: 7);
+  // Sección de mapa
+  .visitanos {
+    font-size: 1.4rem;
+  }
+
+  // Formulario
+  .formulario-titulo {
+    font-size: 2.2rem;
+  }
+
+  .formulario-input {
+    font-size: 1.4rem;
+  }
+
+  .formulario-cta {
+    font-size: 1.5rem;
+  }
+
+  // Whatsapp
+  .whatsapp {
+    @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
+    background: nth($list: $colores, $n: 3);
+    color: nth($list: $colores, $n: 2);
+
+    &:hover {
+      color: nth($list: $colores, $n: 3);
+      background: nth($list: $colores, $n: 2);
     }
+  }
 
-    .image-texto {
-        font-size: 1.4rem;
-    }
+  // Logos arriba del footer
+  .logos {
+    display: flex;
+    flex-direction: column;
 
-    .parrafodescription {
-        font-size: 1.4rem;
-    }
-
-    .tarjetas {
-        display: flex;
-        flex-direction: column;
-
-        .card-perfil {
-            width: 100px;
-            margin: 0 auto;
-        }
-    
-        .image-card {
-            width: 90px;
-            height: 60px
-        }
-
-        .parrafo-cards {
-            font-size: 1.4rem;
-            padding: 6px;
-        }
-    }
-
-    .info-terminos {
-        font-size: 1.8rem;
-    }
-
-    .tarjetas-term {
-        display: flex;
-        flex-direction: column;
-        
-        .card-perfil-term {
-            width: 100px;
-            margin: 0 auto;
-        }
-    
-        .image-card-term {
-            width: 90px;
-            height: 60px
-        }
-
-        .card-button-term {
-            width: 45px;
-        }
-
-        .parrafo-cards-term {
-            font-size: 1.6rem;
-            padding: 6px;
-        }
-    }
-
-    .visitanos {
-        font-size: 1.4rem;
-    }
-
-    .formulario-titulo {
-        font-size: 2.2rem;
-    }
-
-    .formulario-input {
-        font-size: 1.4rem;
-    }
-
-    .whatsapp {
-        @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
-        background: nth($list: $colores, $n: 3);
-        color: nth($list: $colores, $n: 2);
-
-        &:hover {
-            color: nth($list: $colores, $n: 3);
-            background: nth($list: $colores, $n: 2);
-        }
-    }
-
-    .logos {
-        display: flex;
-        flex-direction: column;
-        
     .logo-uno {
-            margin: 0 auto;
-            padding: 5px;
-        }
+      margin: 0 auto;
+      padding: 5px;
+    }
+  }
+
+  // Footer
+  .pie-links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 20px;
+  }
+
+  .font-pie {
+    font-size: 1.4rem;
+  }
+
+  .separacion-links {
+    padding: 20px 0px;
+  }
+
+  // Títulos de páginas
+  .titulo-pagina {
+    font-size: 2rem;
+  }
+
+  .titulo-estilos {
+    font-size: 2rem;
+  }
+
+  // Cards info páginas
+  .tarjetas-paginas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .imagen-tarjetas {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 10px;
     }
 
-    .pie-links {
-        display: flex;
-        flex-direction: column;
-        padding: 20px 0px 0px 20px; 
+    .parrafo-tarjetas {
+      font-size: 1.6rem;
     }
+  }
 
-    .font-pie {
-        font-size: 1.4rem;
-    }
+  // Acordión preguntas
+  .titulos-acordion {
+    font-size: 1.6rem;
+  }
 
-    .separacion-links {
-        padding: 20px 0px;
-    }
-
-    .titulopaginas {
-        font-size: 2rem;
-    }
-
-    .titulo-estilos {
-        font-size: 2rem;
-    }
-
-    .tarjetas-paginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        .imagen-tarjetas {
-            width: 90%;
-            margin: 0 auto;
-            padding-top: 10px;
-        }
-
-        .parrafo-tarjetas {
-            font-size: 1.6rem;
-        }
-    }
-
-    .titulos-acordion {
-        font-size: 1.6rem;
-    }
-
-    .acordion-parrafo {
-        font-size: 1.4rem;
-    }
+  .acordion-parrafo {
+    font-size: 1.4rem;
+  }
 }
 
 // mobile
-@media screen and (min-width:310px) and (max-width: 480px) {
+@media screen and (min-width: 310px) and (max-width: 480px) {
+  // Efecto header
+  .efecto-drop:hover {
+    background: nth($list: $colores, $n: 7);
+  }
 
-    .efecto-drop:hover {
-        background: nth($list: $colores, $n: 7);
+  // Título CMT Seguros
+  .parrafo {
+    @include paragraph(small-caps, uppercase, 1.6rem);
+    font-family: $fuente-titulos;
+  }
+
+  // Efecto parallax
+  .banner-description h2 {
+    font-size: 2.8rem;
+  }
+
+  .banner-description p {
+    font-size: 2.2rem;
+  }
+
+  .banner-description-pages h2 {
+    font-size: 2.8rem;
+  }
+
+  .banner-description-pages p {
+    font-size: 2.2rem;
+  }
+
+  .image-texto {
+    font-size: 1.6rem;
+  }
+
+  // Imágenes del index
+  .padre-imagenes {
+    display: flex;
+    flex-direction: column;
+
+    .hijos-imagenes {
+      margin: 0 auto;
     }
 
-    .parrafo {
-        @include paragraph (small-caps, uppercase, 1.6rem);
-        font-family: $fuente-titulos;
+    .separacion {
+      margin: 20px 20px 0px 20px;
+    }
+  }
+
+  // Descripción páginas
+  .parrafo-description {
+    font-size: 1.6rem;
+  }
+
+  // Cards del index
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil {
+      margin: 0 auto;
     }
 
-    .banner-description h2 {
-        font-size: 2.8rem;
+    .parrafo-cards {
+      font-size: 1.6rem;
+      padding: 8px;
     }
+  }
 
-    .banner-description p {
-        font-size: 2.2rem;
-    }
-
-    .banner-description-pages h2 {
-        font-size: 2.8rem;
-    }
-
-    .banner-description-pages p {
-        font-size: 2.2rem;
-    }
-
-    .image-texto {
-        font-size: 1.6rem;
-    }
-
-    .padre-imagenes {
-        display: flex;
-        flex-direction: column;
-
-        .hijos-imagenes {
-            margin: 0 auto;
-        }
-
-        .separacion {
-            margin: 20px;
-        }
-    }
-
-    .parrafodescription {
-        font-size: 1.6rem;
-    }
-
-    .tarjetas {
-        display: flex;
-        flex-direction: column;
-        
-        .card-perfil {
-            margin: 0 auto;
-        }
-
-        .parrafo-cards {
-            font-size: 1.6rem;
-            padding: 8px;
-        }
-    }
-
-    .info-terminos {
-        font-size: 2.0rem;
-    }
-
-    .tarjetas-term {
-        display: flex;
-        flex-direction: column;
-        
-        .card-perfil-term {
-            margin: 0 auto;
-        }
-
-        .card-button-term {
-            width: 60px;
-        }
-
-        .parrafo-cards-term {
-            font-size: 1.8rem;
-            padding: 8px;
-        }
-    }
-
-    .formulario-titulo {
-        font-size: 2.8rem;
-    }
-
-    .formulario-input {
-        font-size: 1.4rem;
-    }
-
-    .visitanos {
-        font-size: 1.6rem;
-    }
-
-    .logos {
-        display: flex;
-        flex-direction: column;
-        
-        .logo-uno {
-            margin: 0 auto;
-            padding: 5px;
-        }
-    }
-
-    .whatsapp {
-        @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
-        background: nth($list: $colores, $n: 3);
-        color: nth($list: $colores, $n: 2);
-
-        &:hover {
-            color: nth($list: $colores, $n: 3);
-            background: nth($list: $colores, $n: 2);
-        }
-    }
-
-    .formulario {
-        padding: 4rem 1rem;
-    }
-
-    .formulario-titulo {
-        font-size: 2.5rem;
-    }
-
-    .pie-links {
-        font-size: 2rem;
-        display: flex;
-        flex-direction: column;
-        padding: 20px 0px 0px 20px; 
-    }
-
-    .font-pie {
-        font-size: 1.4rem;
-    }
-
-    .separacion-links {
-        padding: 20px 0px;
-    }
-
-    .titulopaginas {
-        font-size: 2.2rem;
-    }
-
-    .titulo-estilos {
-        font-size: 2.2rem;
-    }
-
-    .tarjetas-paginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
-
-        .imagen-tarjetas {
-            width: 90%;
-            margin: 0 auto;
-            padding-top: 10px;
-        }
-
-        .parrafo-tarjetas {
-            font-size: 1.8rem;
-        }
-    }
-
-        .titulos-acordion {
-            font-size: 1.8rem;
-        }
-
-        .acordion-parrafo {
-            font-size: 1.6rem;
-        }
-    }
-
-
-// tablet 
-@media screen and (min-width:481px) and (max-width:1023px) {
-
-    .efecto-drop:hover {
-        background: nth($list: $colores, $n: 7);
-    }
-
-    .parrafo {
-            @include paragraph (small-caps, uppercase, 1.8rem);
-            font-family: $fuente-titulos;
-        }
-
-        .banner-description h2 {
-            font-size: 3.0rem;
-        }
-    
-        .banner-description p {
-            font-size: 2.5rem;
-        }
-
-        .banner-description-pages h2 {
-            font-size: 3.0rem;
-        }
-    
-        .banner-description-pages p {
-            font-size: 2.5rem;
-        }
-
-    .image-texto {
-            font-size: 1.8rem;
-        }
-
-    .padre-imagenes {
-            display: flex;
-            flex-direction: column;
-
-            .hijos-imagenes {
-                margin: 0 auto;
-            }
-        }
-
-    .parrafodescription {
-            font-size: 1.8rem;
-        }
-
-    .tarjetas {
-        display: flex;
-        flex-direction: column;
-
-        .card-perfil {
-            margin: 0 auto;
-        }
-        
-        .parrafo-cards {
-            font-size: 1.8rem;
-              padding: 8px;
-        }
-    }
-    .logos {
-        display: flex;
-        justify-content: space-around;
-        }
-
-    .info-terminos {
-        font-size: 2.2rem;
-        }
-
-    .tarjetas-term {
-        display: flex;
-        flex-direction: column;
-        
-        .card-perfil-term {
-            margin: 0 auto;
-        }
-
-        .parrafo-cards-term {
-            font-size: 2.0rem;
-            padding: 8px;
-        }
-
-        .card-button-term {
-            width: 100px;
-        }
-    }
-
-    .formulario-titulo {
-        font-size: 3rem;
-    }
-
-    .formulario-input {
-        font-size: 1.6rem;
-    }
-
-    .visitanos {
-        font-size: 1.8rem;
-    }
-    
-    .logos {
-            display: flex;
-            justify-content: space-around;
-        }
-
-    .whatsapp {
-            @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
-            background: nth($list: $colores, $n: 3);
-            color: nth($list: $colores, $n: 2);
-
-            &:hover {
-                color: nth($list: $colores, $n: 3);
-                background: nth($list: $colores, $n: 2);
-            }
-    }
-
-    .titulopaginas {
-        font-size: 3rem;
-    }
-
-    .titulo-estilos {
-        font-size: 3rem;
-    }
-
-    .pie-links {
-        display: flex;
-        justify-content: space-around;
-        padding-top: 20px;
-        }
-
-    .font-pie {
-            font-size: 1.6rem;
-        }
-
-        .tarjetas-paginas {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 0 auto;
-    
-            .imagen-tarjetas {
-                width: 50%;
-                margin: 0 auto;
-                padding-top: 10px
-            }
-
-            .parrafo-tarjetas {
-                font-size: 2.2rem;
-            }
-        }
-
-        .titulos-acordion {
-            font-size: 2.2rem;
-        }
-
-        .acordion-parrafo {
-            font-size: 2.0rem;
-        }
-    }
-
-// desktop
-
-@media screen and (min-width: 1024px) {
-    .efecto-drop {
-        &:hover {
-            background: nth($list: $colores, $n: 7);
-        }
-    }
-
-    .parrafo {
-        @include paragraph (small-caps, uppercase, 2rem);
-        font-family: $fuente-titulos;
-    }
-
-    .banner-description h2 {
-        font-size: 3.2rem;
-    }
-
-    .banner-description p {
-        font-size: 2.8rem;
-    }
-
-    .banner-description-pages h2 {
-        font-size: 3.2rem;
-    }
-
-    .banner-description-pages p {
-        font-size: 2.8rem;
-    }
-
-    .image-texto {
+  // Párrafo explicativo términos y condiciones
+  .info-terminos {
     font-size: 2rem;
+  }
+
+  // Cards de términos y condiciones
+  .tarjetas-term {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil-term {
+      margin: 0 auto;
     }
 
-    .padre-imagenes {
-        display: flex;
-        justify-content: center;
-
-        .hijos-imagenes {
-            flex-direction: column;
-            padding: 20px;
-        }
-        
-        .separacion {
-            margin: 100px;
-        }
+    .card-button-term {
+      width: 60px;
     }
 
-    .parrafodescription {
-        font-size: 2rem;
+    .parrafo-cards-term {
+      font-size: 1.8rem;
+      padding: 8px;
     }
+  }
 
-    .formulario-titulo {
-        font-size: 3.8rem;
+  // Sección mapa
+  .visitanos {
+    font-size: 1.6rem;
+  }
+
+  // Logos arriba del footer
+  .logos {
+    display: flex;
+    flex-direction: column;
+
+    .logo-uno {
+      margin: 0 auto;
+      padding: 5px;
     }
+  }
 
-    .formulario-input {
-        font-size: 1.6rem;
+  // Whatsapp
+  .whatsapp {
+    @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
+    background: nth($list: $colores, $n: 3);
+    color: nth($list: $colores, $n: 2);
+
+    &:hover {
+      color: nth($list: $colores, $n: 3);
+      background: nth($list: $colores, $n: 2);
     }
+  }
 
-    .logos {
-        display: flex;
-        justify-content: space-around;
-    }
+  // Formulario
+  .formulario {
+    padding: 4rem 1rem;
+  }
 
-    .tarjetas {
-        background-color: rgba(255, 255, 255, 0);
-        width: 100%;
-        display: flex;
-        gap: 50px;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
+  .formulario-titulo {
+    font-size: 2.5rem;
+  }
 
-        .card-perfil {
-          background-color: #fff;
-          width: 310px;
-          padding: 20px;
-          border: solid rgba(64, 224, 208, 0) 2px;
-          border-radius: 10px;
-        }
-      
-        .image-card {
-            width: 200px;
-            height: 100px;
-            box-shadow: 2px 2px 5px rgb(184, 180, 180);
-            border: 1px solid rgba(0, 0, 0, 0.1);
-        }
-      
-        .card-nombre {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-        }
-      
-        .parrafo-cards {
-            font-size: 2rem;
-            padding: 10px;
-        }
-      }
+  .formulario-input {
+    font-size: 1.4rem;
+  }
 
-      .info-terminos {
-          font-size: 2.5rem;
-      }
+  .formulario-cta {
+    font-size: 1.6rem;
+  }
 
-      .tarjetas-term {
-        background-color: rgba(255, 255, 255, 0);
-        width: 100%;
-        display: flex;
-        gap: 50px;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        
-        .card-perfil-term {
-          background-color: #fff;
-          width: 310px;
-          padding: 20px;
-          border: solid rgba(64, 224, 208, 0) 2px;
-          border-radius: 10px;
-        }
-      
-        .image-card-term {
-          width: 200px;
-          height: 100px;
-          box-shadow: 2px 2px 5px rgb(184, 180, 180);
-          border: 1px solid rgba(0, 0, 0, 0.1);
-        }
-      
-        .card-nombre-term {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 10px;
-        }
-      
-        .parrafo-cards-term {
-            font-size: 2.2rem;
-            padding: 10px;
-        }
+  // Footer
+  .pie-links {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 20px;
+  }
 
-        .enlace-term {
-            font-size: 1.8rem;
-        }
+  .font-pie {
+    font-size: 1.4rem;
+  }
 
-        .card-button-term {
-            width: 100px;
-        }
-      }
-    
-    .visitanos {
-        font-size: 2rem;
-    }
+  .separacion-links {
+    padding: 20px 0px;
+  }
 
-    .whatsapp {
-        @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
-        background: nth($list: $colores, $n: 3);
-        color: nth($list: $colores, $n: 2);
-    
-        &:hover {
-            color: nth($list: $colores, $n: 3);
-            background: nth($list: $colores, $n: 2);
-        
-            @include animacion(scale(1.5));
-            transition: all 0.5s;
-        }
-    }
+  // Títulos de páginas
+  .titulo-pagina {
+    font-size: 2.2rem;
+  }
 
-    .titulopaginas {
-        font-size: 3.4rem;
-    }
+  .titulo-estilos {
+    font-size: 2.2rem;
+  }
 
-    .titulo-estilos {
-        font-size: 3.4rem;
-    }
-
-    .pie-links {
-        display: flex;
-        justify-content: space-around;
-        padding-top: 20px;
-    }
-
-    .font-pie {
-        font-size: 1.6rem;
-    }
+  // Cards info páginas
+  .tarjetas-paginas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 
     .imagen-tarjetas {
-            width: 40%;
-            margin: 0 auto;
-            padding: 10px;
-        }
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 10px;
+    }
 
     .parrafo-tarjetas {
-        font-size: 2.5rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  // Acordión preguntas
+  .titulos-acordion {
+    font-size: 1.8rem;
+  }
+
+  .acordion-parrafo {
+    font-size: 1.6rem;
+  }
+}
+
+// tablet
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  // Efecto header
+  .efecto-drop:hover {
+    background: nth($list: $colores, $n: 7);
+  }
+
+  // Título CMT Seguros
+  .parrafo {
+    @include paragraph(small-caps, uppercase, 1.8rem);
+    font-family: $fuente-titulos;
+  }
+
+  // Efecto parallax
+  .banner-description h2 {
+    font-size: 3rem;
+  }
+
+  .banner-description p {
+    font-size: 2.5rem;
+  }
+
+  .banner-description-pages h2 {
+    font-size: 3rem;
+  }
+
+  .banner-description-pages p {
+    font-size: 2.5rem;
+  }
+
+  .image-texto {
+    font-size: 1.8rem;
+  }
+
+  // Imágenes del index
+  .padre-imagenes {
+    display: flex;
+    flex-direction: column;
+
+    .hijos-imagenes {
+      margin: 0 auto;
+    }
+  }
+
+  // Descripción páginas
+  .parrafo-description {
+    font-size: 1.8rem;
+  }
+
+  // Cards del index
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil {
+      margin: 0 auto;
     }
 
-    .titulos-acordion {
-        font-size: 2.5rem;
+    .parrafo-cards {
+      font-size: 1.8rem;
+      padding: 8px;
+    }
+  }
+
+  // Logos arriba del footer
+  .logos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // Párrafo explicativo términos y condiciones
+  .info-terminos {
+    font-size: 2.2rem;
+  }
+
+  // Cards de términos y condiciones
+  .tarjetas-term {
+    display: flex;
+    flex-direction: column;
+
+    .card-perfil-term {
+      margin: 0 auto;
     }
 
-    .acordion-parrafo {
-        font-size: 2.2rem;
-        padding: 20px;
+    .parrafo-cards-term {
+      font-size: 2rem;
+      padding: 8px;
     }
+
+    .card-button-term {
+      width: 100px;
+    }
+  }
+
+  // Formulario
+  .formulario-titulo {
+    font-size: 3rem;
+  }
+
+  .formulario-input {
+    font-size: 1.6rem;
+  }
+
+  .formulario-cta {
+    font-size: 1.8rem;
+  }
+
+  // Sección de mapa
+  .visitanos {
+    font-size: 1.8rem;
+  }
+
+  // Whatsapp
+  .whatsapp {
+    @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
+    background: nth($list: $colores, $n: 3);
+    color: nth($list: $colores, $n: 2);
+
+    &:hover {
+      color: nth($list: $colores, $n: 3);
+      background: nth($list: $colores, $n: 2);
+    }
+  }
+
+  // Títulos de páginas
+  .titulo-pagina {
+    font-size: 3rem;
+  }
+
+  .titulo-estilos {
+    font-size: 3rem;
+  }
+
+  // Footer
+  .pie-links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+
+  .font-pie {
+    font-size: 1.6rem;
+  }
+
+  // Cards info páginas
+  .tarjetas-paginas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+    .imagen-tarjetas {
+      width: 50%;
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+
+    .parrafo-tarjetas {
+      font-size: 2.2rem;
+    }
+  }
+
+  // Acordión preguntas
+  .titulos-acordion {
+    font-size: 2.2rem;
+  }
+
+  .acordion-parrafo {
+    font-size: 2rem;
+  }
+}
+
+// desktop
+@media screen and (min-width: 1024px) {
+  // Efectos header
+  .efecto-drop {
+    &:hover {
+      background: nth($list: $colores, $n: 7);
+    }
+  }
+
+  // Efecto header, solo desktop
+  .efecto {
+    transition: all 500ms;
+
+    &:hover {
+      // color: nth($list: $colores, $n: 4);
+      transform: scale(1.1);
+    }
+  }
+
+  // Título CMT Seguros
+  .parrafo {
+    @include paragraph(small-caps, uppercase, 2rem);
+    font-family: $fuente-titulos;
+  }
+
+  // Efecto parallax
+  .banner-description h2 {
+    font-size: 3.2rem;
+  }
+
+  .banner-description p {
+    font-size: 2.8rem;
+  }
+
+  .banner-description-pages h2 {
+    font-size: 3.2rem;
+  }
+
+  .banner-description-pages p {
+    font-size: 2.8rem;
+  }
+
+  .image-texto {
+    font-size: 2rem;
+  }
+
+  // Imágenes del index
+  .padre-imagenes {
+    display: flex;
+    justify-content: center;
+
+    .hijos-imagenes {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .separacion {
+      margin: 100px;
+    }
+  }
+
+  // Descripción páginas
+  .parrafo-description {
+    font-size: 2rem;
+  }
+
+  // Formulario
+  .formulario-titulo {
+    font-size: 3.8rem;
+  }
+
+  .formulario-input {
+    font-size: 1.6rem;
+  }
+
+  .formulario-cta {
+    font-size: 2rem;
+  }
+
+  // Logos arriba del footer
+  .logos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // Cards del index
+  .tarjetas {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .card-perfil {
+      background-color: #fff;
+      width: 310px;
+      padding: 20px;
+      border: solid rgba(64, 224, 208, 0) 2px;
+      border-radius: 10px;
+    }
+
+    .image-card {
+      width: 200px;
+      height: 100px;
+      box-shadow: 2px 2px 5px rgb(184, 180, 180);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .card-nombre {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .parrafo-cards {
+      font-size: 2rem;
+      padding: 10px;
+    }
+  }
+
+  // Párrafo explicativo términos y condiciones
+  .info-terminos {
+    font-size: 2.5rem;
+  }
+
+  // Cards de términos y condiciones
+  .tarjetas-term {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .card-perfil-term {
+      background-color: #fff;
+      width: 310px;
+      padding: 20px;
+      border: solid rgba(64, 224, 208, 0) 2px;
+      border-radius: 10px;
+    }
+
+    .image-card-term {
+      width: 200px;
+      height: 100px;
+      box-shadow: 2px 2px 5px rgb(184, 180, 180);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .card-nombre-term {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .parrafo-cards-term {
+      font-size: 2.2rem;
+      padding: 10px;
+    }
+
+    .enlace-term {
+      font-size: 1.8rem;
+    }
+
+    .card-button-term {
+      width: 100px;
+    }
+  }
+
+  // Sección de mapa
+  .visitanos {
+    font-size: 2rem;
+  }
+
+  // Whatsapp
+  .whatsapp {
+    @include wp(fixed, 40px, 40px, 25px, 25px, 50px);
+    background: nth($list: $colores, $n: 3);
+    color: nth($list: $colores, $n: 2);
+
+    &:hover {
+      color: nth($list: $colores, $n: 3);
+      background: nth($list: $colores, $n: 2);
+
+      @include animacion(scale(1.5));
+      transition: all 0.5s;
+    }
+  }
+
+  // Títulos de páginas
+  .titulo-pagina {
+    font-size: 3.4rem;
+  }
+
+  .titulo-estilos {
+    font-size: 3.4rem;
+  }
+
+  // Footer
+  .pie-links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+
+  .font-pie {
+    font-size: 1.6rem;
+  }
+
+  // Cards info páginas
+  .imagen-tarjetas {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .parrafo-tarjetas {
+    font-size: 2.5rem;
+  }
+
+  // Acordión preguntas
+  .titulos-acordion {
+    font-size: 2.5rem;
+  }
+
+  .acordion-parrafo {
+    font-size: 2.2rem;
+    padding: 20px;
+  }
 }

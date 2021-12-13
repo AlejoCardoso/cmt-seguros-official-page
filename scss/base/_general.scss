@@ -1,11 +1,13 @@
 @import './mixin';
 
+// Selector universal
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+// Ajustes generales principales
 html {
     font-size: 10px;
     scroll-behavior: smooth;
@@ -28,7 +30,7 @@ html {
         color: $color-fuente;
     }
 
-    .parrafodescription {
+    .parrafo-description {
         color: $color-fuente;
         text-align: center;
     }

@@ -4,168 +4,168 @@
 .paginas-secundarias {
     font-family: $fuente-body;
     border-bottom: 2px solid nth($list: $colores, $n: 1);
-}
-
-.banner-uno, .banner-dos, .banner-tres, .banner-cuatro, .banner-cinco, .banner-seis {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    text-align: left;
     
-    .banner-description-pages {
-        background-color: rgba(0, 0, 0, 0.6);
-        width: 90%;
-        max-width: 1000px;
-        display: block;
-        margin: auto;
-    }
-    
-    .banner-description-pages h2 {
-        font-weight: 600;
-        text-align: center;
-    }
-    
-    .banner-description-pages p {
-      margin: 20px 0;
-      text-align: center
-    }
-}
-
-.banner-uno {
-    background: center fixed url("../src/img/maquinaria-agricola.jpg");
-}
-
-.banner-dos {
-    background: center fixed url("../src/img/preguntas.jpg");
-}
-
-.banner-tres {
-    background: center fixed url("../src/img/lugar-trabajo.jpg");
-}
-
-.banner-cuatro {
-    background: center fixed url("../src/img/gente.jpg");
-}
-
-.banner-cinco {
-    background: center fixed url("../src/img/sobre.jpg");
-}
-
-.banner-seis {
-    background: center fixed url("../src/img/terminos.jpg");
-}
-
-.titulo-estilos {
-    padding: 10px;
-    color: nth($list: $colores, $n: 2);
-    background-color: rgba($color: nth($list: $colores, $n: 2), $alpha: 0.3);
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 5px;
-    text-align: center;
-
-    border: 2px solid rgba(0, 0, 255, 0);
-
-    &:hover {
-        border: 2px solid nth($list: $colores, $n: 9);
-    }
-}
-
-.info-terminos {
-    margin: 0 auto;
-    width: 90%;
-    padding: 10px;
-    border-radius: 5px;
-    background: rgba($color: nth($list: $colores, $n: 2), $alpha: 0.2);
-    text-align: center;
-    color: nth($list: $colores, $n: 2);
-}
-
-.tarjetas-term {
-    background-color: rgba(255, 255, 255, 0);
-
-    .card-perfil-term {
-      background-color: nth($list: $colores, $n: 2);
-      margin-top: 30px;
-      margin-bottom: 30px;
-      border: solid rgba(64, 224, 208, 0) 2px;
-      border-radius: 10px;
-  
-      &:hover {
-        border: solid nth($list: $colores, $n: 9) 2px;
-    }
-    }
-
-    .image-card-term {
-      box-shadow: 2px 2px 5px rgb(184, 180, 180);
-      border: 1px solid rgba(0, 0, 0, 0.1);
-    }
-  
-    .card-nombre-term {
-      align-items: center;
-    }
-
-    .parrafo-cards-term {
-          text-align: center;
-          color: gray;
-        }
-
-    .card-button-term {
-        margin: 0 auto;
-        background-color: nth($list: $colores, $n: 9);
-        border: none;
-        border-radius: 5px;
-
-        .enlace-term {
-            display: block;
-            text-decoration: none;
-            padding: 10px;
-            text-align: center;
-            color: nth($list: $colores, $n: 2);
-            text-decoration: none;
-        }
-    }
-    
-  }
-
-.tarjetas-section {
-    margin-top: 20px;
-
-    .tarjetas-paginas {
-        margin: 0 auto;
-        border-radius: 5px;
-        width: 90%;
-        background-color: rgba($color: #fff, $alpha: 0.2);
-        display: flex;
-        justify-content: center;
-    }
-
-    .parrafo-tarjetas {
-        margin: 10px;
+    .banner-uno, .banner-dos, .banner-tres, .banner-cuatro, .banner-cinco, .banner-seis {
+        width: 100%;
+        height: 700px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        text-align: left;
+        
+        .banner-description-pages {
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 90%;
+            max-width: 1000px;
+            display: block;
+            margin: auto;
+        }
+        
+        .banner-description-pages h2 {
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .banner-description-pages p {
+          margin: 20px 0;
+          text-align: center
+        }
+    }
+    
+    .banner-uno {
+        background: center fixed url("../src/img/maquinaria-agricola.jpg");
+    }
+    
+    .banner-dos {
+        background: center fixed url("../src/img/preguntas.jpg");
+    }
+    
+    .banner-tres {
+        background: center fixed url("../src/img/lugar-trabajo.jpg");
+    }
+    
+    .banner-cuatro {
+        background: center fixed url("../src/img/gente.jpg");
+    }
+    
+    .banner-cinco {
+        background: center fixed url("../src/img/sobre.jpg");
+    }
+    
+    .banner-seis {
+        background: center fixed url("../src/img/terminos.jpg");
+    }
+    
+    .titulo-estilos {
+        padding: 10px;
+        color: nth($list: $colores, $n: 2);
+        background-color: rgba($color: nth($list: $colores, $n: 2), $alpha: 0.3);
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 5px;
+        text-align: center;
+    
+        border: 2px solid rgba(0, 0, 255, 0);
+    
+        &:hover {
+            border: 2px solid nth($list: $colores, $n: 9);
+        }
+    }
+    
+    .info-terminos {
+        margin: 0 auto;
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        background: rgba($color: nth($list: $colores, $n: 2), $alpha: 0.2);
         text-align: center;
         color: nth($list: $colores, $n: 2);
-        font-family: $fuente-pie;
-        font-weight: 800;
-        word-spacing: 3px;
     }
-
-    .tarjetas-info {
-        display: flex;
-        flex-direction: column;
+    
+    .tarjetas-term {
+        background-color: rgba(255, 255, 255, 0);
+    
+        .card-perfil-term {
+          background-color: nth($list: $colores, $n: 2);
+          margin-top: 30px;
+          margin-bottom: 30px;
+          border: solid rgba(64, 224, 208, 0) 2px;
+          border-radius: 10px;
+      
+          &:hover {
+            border: solid nth($list: $colores, $n: 9) 2px;
+        }
+        }
+    
+        .image-card-term {
+          box-shadow: 2px 2px 5px rgb(184, 180, 180);
+          border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+      
+        .card-nombre-term {
+          align-items: center;
+        }
+    
+        .parrafo-cards-term {
+              text-align: center;
+              color: gray;
+            }
+    
+        .card-button-term {
+            margin: 0 auto;
+            background-color: nth($list: $colores, $n: 9);
+            border: none;
+            border-radius: 5px;
+    
+            .enlace-term {
+                display: block;
+                text-decoration: none;
+                padding: 10px;
+                text-align: center;
+                color: nth($list: $colores, $n: 2);
+                text-decoration: none;
+            }
+        }
+        
+      }
+    
+    .tarjetas-section {
+        margin-top: 20px;
+    
+        .tarjetas-paginas {
+            margin: 0 auto;
+            border-radius: 5px;
+            width: 90%;
+            background-color: rgba($color: #fff, $alpha: 0.2);
+            display: flex;
+            justify-content: center;
+        }
+    
+        .parrafo-tarjetas {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: nth($list: $colores, $n: 2);
+            font-family: $fuente-pie;
+            font-weight: 800;
+            word-spacing: 3px;
+        }
+    
+        .tarjetas-info {
+            display: flex;
+            flex-direction: column;
+        }
+    
     }
-
-}
-
-.acordion-principal {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px 0;
-
-    .titulos-acordion {
-        color: nth($list: $colores, $n: 9);
+    
+    .acordion-principal {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+    
+        .titulos-acordion {
+            color: nth($list: $colores, $n: 9);
+        }
     }
 }

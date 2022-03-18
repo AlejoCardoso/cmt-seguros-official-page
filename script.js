@@ -4,11 +4,20 @@ let popUp = document.querySelector(".pop-up-mensaje");
 popUp.addEventListener("click", aviso)
 
 function aviso(){
-    Swal.fire({
+    const Toast = Swal.mixin({
+        toast: true,
         position: 'top',
-        icon: 'success',
-        title: 'Mensaje enviado ¡Gracias por confiar en CMT Seguros!',
         showConfirmButton: false,
-        timer: 1500
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+          toast.addEventListener('mouseenter', Swal.stopTimer)
+          toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+      })
+      
+      Toast.fire({
+        icon: 'success',
+        title: 'Mensaje enviado ¡Gracias por confiar en CMT Seguros!'
       })
 }

@@ -287,7 +287,7 @@
               <input id="phone" type="number" class="formulario-input" placeholder="Teléfono:" name="phone" required>
               <textarea id="message" type="text" class="formulario-input formulario-input--message"
                 placeholder="Mensaje:" name="message" required></textarea>
-              <input id="button" type="submit" value="Enviar" class="formulario-cta">
+              <input id="button" type="submit" value="Enviar" class="formulario-cta .pop-up-mensaje">
             </div>
           </form>
 
@@ -379,6 +379,8 @@
   <script>
     AOS.init();
   </script>
+  <!-- JavaScript -->
+  <script src="./script.js"></script>
 
   <!-- Email JS -->
   <script>
@@ -397,22 +399,6 @@
           .then(() => {
             btn.value = 'Enviar';
             /* alert('Mensaje enviado ¡Gracias por confiar en CMT Seguros!'); */
-            const Toast = Swal.mixin({
-                toast: true,
-                position: 'top-end',
-                showConfirmButton: false,
-                timer: 3000,
-                timerProgressBar: true,
-                didOpen: (toast) => {
-                  toast.addEventListener('mouseenter', Swal.stopTimer)
-                  toast.addEventListener('mouseleave', Swal.resumeTimer)
-                }
-              })
-
-              Toast.fire({
-                icon: 'success',
-                title: 'Signed in successfully'
-              })
           }, (err) => {
             btn.value = 'Enviar';
             alert(JSON.stringify(err));
